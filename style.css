@@ -151,7 +151,6 @@ footer a {
 .center {
     text-align: center;
     background-color: transparent;
-
 }
 
 #view {
@@ -169,11 +168,11 @@ footer a {
 #sub-header {
     margin-bottom: 3.5em;
 }
-.col-6 img {
+.col-md-6 img {
     width: 100%;
     height: auto;
-    padding-left: 3em;
-    padding-right: 3em;
+    padding-left: 2vw;
+    padding-right: 2vw;
 
 }
 .apps:hover {
@@ -311,7 +310,6 @@ footer a {
   .card {
     padding: 2em !important; 
     border-radius: 1em !important;
-    background-color: #F9F5FF !important;
     margin-bottom: 1.5em;
   }
 
@@ -333,4 +331,40 @@ footer a {
   .scanners img {
     width: calc(100%/4.5);
 
+  }
+
+  #nospace {
+    margin: 0;
+    padding: 0;
+  }
+
+
+  /* Contact Page */
+  .contact p {
+    margin: 0;;
+  }
+  .contact .iconify {
+    margin-bottom: 1em;
+    color:#28262C;
+  }
+  .contact .material-icons {
+    margin-bottom: .7em;
+    color:#28262C;
+  }
+
+  .contact a {
+    color: #28262C;
+    text-decoration: none;
+  }
+
+  .contact h1 {
+    font-size: calc(1vw + 50px);
+    margin-top: .5em;
+    margin-bottom: 1.5em;
+  }
+
+  #fontGraphics {
+    font-size: calc(1vw + 50px);
+    margin-top: .5em;
+    margin-bottom: .5em;
   }
