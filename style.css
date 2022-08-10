@@ -27,6 +27,14 @@ body {
 #navRow {
     padding-top: 2em;
     padding-bottom: 2em;
+    text-align: left;
+}
+#navRow img {
+  text-align: left;
+  display: block;
+  margin-right: auto;
+  width: auto;
+  padding-left: .5em;
 }
 nav {
     text-align: right;
