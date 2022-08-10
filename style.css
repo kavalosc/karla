@@ -153,6 +153,10 @@ footer a {
     background-color: transparent;
 }
 
+img {
+  width: 100%;
+}
+
 #view {
     -webkit-transform: rotate(-90deg); 
     -moz-transform: rotate(-90deg); 
