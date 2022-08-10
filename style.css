@@ -179,6 +179,14 @@ img {
     padding-right: 2vw;
 
 }
+.col-sm-4 img {
+  width: 100%;
+}
+
+.wireframe {
+  border: 1px solid lightgray;
+
+}
 .apps:hover {
     opacity: .7;
 }
