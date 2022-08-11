@@ -125,6 +125,14 @@ h1 b {
     align-items: center;
 }
 
+.bounce a {
+  text-decoration: none;
+}
+
+#firstRow {
+  padding-top: 1em;
+}
+
 .right {
     display: flex;
     justify-content: end;
