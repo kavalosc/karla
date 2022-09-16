@@ -199,9 +199,13 @@ img {
 .col-md-6 img {
     width: 100%;
     height: auto;
-    padding-left: 2vw;
-    padding-right: 2vw;
 
+}
+#middlealign {
+  vertical-align: middle !important;
+  display: block !important;
+  margin-top: auto !important;
+  margin-bottom: auto !important;
 }
 .col-sm-4 img {
   width: 100%;
@@ -414,7 +418,28 @@ img {
   }
 
   #fontGraphics {
-    font-size: calc(1vw + 50px);
-    margin-top: .5em;
+    margin-top: 1em;
     margin-bottom: .5em;
+    font-size: calc(1vw + 50px);
+    text-align: center;
   }
+  #pGraphics {
+    text-align: center;
+    margin-bottom: 5em;
+  }
+
+  video {
+    width: 100%;
+  }
+
+.card-no-outline {
+  padding-bottom: 2vw;
+}
+
+.container {
+  padding-left: 2vw !important;
+  padding-right: 2vw !important;
+}
+#app-col {
+  padding: 2vw;
+}
