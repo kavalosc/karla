@@ -12,7 +12,7 @@
 body {
     background-color: var(--background-color) !important;
     color: var(--color) !important;
-    font-family: 'Montserrat', 'DM Sans';
+    font-family: 'DM Sans', sans-serif;
 
     transition: background-color 500ms, color 500ms;
 
@@ -44,7 +44,7 @@ body {
   color: #7879F1;
 }
 nav {
-    font-family: 'Work Sans';
+    font-family: 'DM Sans';
     text-align: right;
 }
 
@@ -86,11 +86,10 @@ nav button:hover {
 /* Header */
 header {
     text-align: center;
-    padding-top: 6vw;
-    padding-bottom: 8vw;
+    padding-top: 8vw;
 }
 header h1 {
-    font-family: 'Montserrat';
+    font-family: 'DM Sans';
     font-weight: 700;
 }
 header h3 {
@@ -115,7 +114,7 @@ header h3 {
     color: var(--blue);
 }
 #arrow {
-    width: 2em;
+    width: 1em;
     display: inline;
 }
 
@@ -176,16 +175,21 @@ footer a {
     text-align: center;
     background-color: transparent;
 }
+.left {
+  text-align: left !important;
+}
 
 img {
   width: 100%;
+  border-radius: 2em;
+}
+.col-md-6 img {
+  border-radius: 1em;
 }
 
 #view {
     -webkit-transform: rotate(-90deg); 
     -moz-transform: rotate(-90deg); 
-    margin-left: 2.5em;
-
 }
 #viewmore {
     display: flex;
@@ -195,6 +199,8 @@ img {
 }
 #sub-header {
     margin-bottom: 3.5em;
+    margin-top: 3em
+
 }
 .col-md-6 img {
     width: 100%;
@@ -227,7 +233,7 @@ img {
 #about h1 {
     margin-bottom: .5em;
     margin-top: .5em;
-    font-family: "Montserrat";
+    font-family: "DM Sans";
     font-weight: 700;
 }
 
@@ -333,8 +339,14 @@ img {
     margin-bottom: .5em;
   }
 
+  .app-background {
+    padding-left: 2vw;
+    padding-right: 2vw;
+  }
+
   .app-background h1 {
     margin-bottom: 1em;
+    text-align: center;
   }
 
   .app-background .row {
@@ -350,7 +362,8 @@ img {
   .card {
     padding: 2em !important; 
     border-radius: 1em !important;
-    margin-bottom: 1.5em;
+    margin-bottom: 2em !important;
+    margin-top: 1em !important;
   }
 
   .sketch {
@@ -437,9 +450,77 @@ img {
 }
 
 .container {
-  padding-left: 2vw !important;
-  padding-right: 2vw !important;
+  padding-left: 3vw !important;
+  padding-right: 3vw !important;
 }
 #app-col {
   padding: 2vw;
+}
+
+
+#name-logo {
+  width: 5em !important;
+  margin-right: 100% !important;
+}
+
+#leftalign {
+  text-align: left !important;
+  margin-left: 0 !important;
+  margin-right: auto;
+}
+
+#midalign {
+  vertical-align: middle !important;
+  display: block;
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+}
+.blue-blurry-gradient {
+  transform: translate(5vw, 4vw);
+  width: 13em;
+  height: 13em;
+	border-radius: 50%;  
+	filter: blur(70px);
+  background: radial-gradient(circle at 50% 50%,#7879F1, rgba(76, 0, 255, 0));
+}
+.yellow-blurry-gradient {
+  transform: translate(65vw, -13vw);
+  width: 13em;
+  height: 13em;
+	border-radius: 50%;  
+	filter: blur(70px);
+  background: radial-gradient(circle at 50% 50%,#F9CB40, rgba(76, 0, 255, 0));
+}
+.red-blurry-gradient {
+  transform: translate(55vw, -17vw);
+  width: 13em;
+  height: 13em;
+	border-radius: 50%;  
+	filter: blur(70px);
+  background: radial-gradient(circle at 50% 50%,#FF715B, rgba(76, 0, 255, 0));
+}
+
+ul {
+  margin-left: 2em;
+}
+
+.center-p {
+  color:#7879F1;
+  font-weight: bold;
+}
+
+a {
+  color:#28262C !important;
+}
+a:hover {
+  color:#7879F1 !important;
+}
+
+.card h3 {
+  margin-bottom: .5em;
+}
+
+
+hr {
+  margin-top: 8em !important;
 }
