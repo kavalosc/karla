@@ -9,7 +9,7 @@
         <!-- Import font -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Work+Sans:wght@500;800&family=Poppins:wght@200;800&display=swap" rel="stylesheet">    </head>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Work+Sans:wght@500;800&family=Poppins:wght@200;800&display=swap" rel="stylesheet">    
         <!-- Import Material Icons -->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -20,8 +20,14 @@
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
         <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+        
+        <script src="/script.js"></script>
+    </head>
+
     <div class="flex-wrapper">
     <body>
+        
+
         <div class="container">
             <!-- Navigation Bar -->
             <div class="row" id="navRow">
@@ -38,17 +44,26 @@
                     <nav>
                         <a href="index.html" class="active">Projects</a>
                         <a href="about.html">Info</a>
-                        <a href="assets/Karla Avalos Resume.pdf" target="_blank"><button>Resume/CV</button></a>
+                        <a href="assets/Karla Avalos Resume.pdf" target="_blank" class="abutton"><button>Resume/CV</button></a>
                         
                     </nav>
                 </div>
             </div>
 
 
+
             <!-- Contact Info -->
             <div class="app-header">
-                <h1>Rooted.</h1>
-                <p>An app to help new plant owners learn more about how to care for their plants.</p>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h1 class="left">Rooted.</h1>
+                        <p class="left">An app to help new plant owners learn more about how to care for their plants.</p>
+                    </div>
+                <div class="col-md-6">
+                    <img src="assets/rooted/iPhone 13 Pro.png">
+                </div>
+                </div>
+                <hr data-aos="fade-up">
             </div>
 
             <div class="app-background">
@@ -56,348 +71,433 @@
 
                     <div class="row">
                         <div class="col-md-6">
-                            <h1 class="left">Background</h1>
-                        </div>
-                        <div class="col-md-6">
                             <p><b>Project for Human-Computer Interaction Class 2022</b></p>
                             <p><b>Course Instructor: </b>Matthew Bietz</p>
                             <p><b>Duration: </b>10 weeks</p>
+
+
+
+                        </div>
+                        <div class="col-md-6">
                             <p><b>Role: </b>UI/UX Designer </p>
                             <p><b>Team: </b>Hannah Limary, Carly Chan, Regina Tambunan, Kevin Tsai, Rohan Hemrajani, Me</p>
+                            <p><b>Tools: </b>Figma, Miro, Google Suite</p>
                         </div>
 
-                        <hr>
+                        <hr data-aos="fade-up">
 
                     </div>
                 </div>
 
+                <div data-aos="fade-up">
+                    <div class="row">
+                        <h2>Timeline</h2>
+                        <img src="assets/rooted/timeline.jpg">
+                    </div>
+
+                    <hr data-aos="fade-up">
+
+                </div>
 
                 <div data-aos="fade-up">
+                    
+                        <h1 class="rootedh1">1. Understand</h1>
+                    
 
+                </div>
+
+                <div data-aos="fade-up">
                     <div class="row">
+                        <h4 class="rootedHighlight">Understand the Context</h4>
+                        <h2>The plant owner community has been steadily rising.</h2>
+
+                        <p>Becoming a plant parent became super popular recently (especially since quarantine has had many people exploring 
+                            different hobbies), and many new people are becoming increasingly interested in joining this niche group.
+                        </p>
+                        <ul>
+                            <li>40% of millennials <b>plan to buy a houseplant</b> this year.</li>
+                            <li>66% of American households <b>own at least one houseplant.</b></li>
+
+                        </ul>
+                        <p class="caption">
+                            Sources: 
+                            <a href="https://civicscience.com/gen-z-houseplant-ownership-stems-from-the-desire-to-care-for-something-alive/">Civic Science</a> / 
+                            <a href="https://www.article.com/blog/survey-decorating-with-houseplants/">Articulate</a>
+                        </p>
+                    </div>
+
+                    
+                </div>
+
+                <div data-aos="fade-up">
+                    <div class="row">
+                        <h4 class="rootedHighlight">Understand the Problem</h4>
+                        <h2>Many plant owners find plant care more difficult than expected.</h2>
+                        <ul>
+                            <li>48% are <b>nervous</b> about their ability to keep plants alive at all</li>
+                            <li>67% of plant owners say “plant parenthood” is <b>tougher than they expected</b> it to be</li>
+                            <li>19% say watching plants is more <b>stressful</b> than getting a root canal.</li>
+                        </ul>
+                        <p class="caption">
+                            Sources: 
+                            <a href="https://civicscience.com/gen-z-houseplant-ownership-stems-from-the-desire-to-care-for-something-alive/">Civic Science</a> / 
+                            <a href="https://www.deseret.com/u-s-world/2020/1/27/21083948/millennials-pressures-plant-parenting-survey-parenthood-houseplant">Deseret</a> / 
+                            <a href="https://www.article.com/blog/survey-decorating-with-houseplants/">Articulate</a>
+                        </p>
+                        <p>
+                            <b>Design Problem Statement: How might we educate plant owners about their plants and how to care for them, in and around their home?</b>
+                        </p>
+                    </div>
+                    
+                </div>
+
+                <div data-aos="fade-up">
+                    <div class="row">
+                        <h4 class="rootedHighlight">Solution</h4>
+                        <h2>We created an app to educate plant owners about their plants, and how to care for them.</h2>
+
+                        <video controls>
+                            <source src="assets/rooted/▶ Hi-Fidelity - INF132_ Rooted App - Google Chrome 2022-10-12 15-59-09.mp4" type="video/mp4">
+                        </video>
+
+                        <div class="center">
+                            <a href="https://www.figma.com/proto/7fJIqWi6WDaqXQFB8j34dF/INF132%3A-Rooted-App?node-id=116%3A2083&scaling=scale-down&page-id=74%3A2&starting-point-node-id=116%3A2083&show-proto-sidebar=1"><button>View Prototype</button></a>
+                        </div>
+
+                    </div>
+
+                    <hr data-aos="fade-up">
+                    
+                </div>
+
+                <div data-aos="fade-up">
+                    
+                        <h1 class="rootedh1">2. Research</h1>
+                    
+
+                </div>
+                <div data-aos="fade-up">
+                    <div class="row">
+                        <h4 class="rootedHighlight">Research</h4>
+                        <h2>We analyzed 6 direct and indirect competitors to gain insights on existing features.</h2>
+
+                        <iframe src="assets/rooted/comp.pdf"></iframe>
+
+                        <p>
+                            By conducting our competitive analysis on apps in a similar target space, we were able to <b>identify key features</b>
+                             we should include in our own app design as well as certain features that <b>may not be as relevant</b> or desired to 
+                             our target audience. Overall, this, in combination with our user interviews and key insights, 
+                             informed the design decisions and ideation process needed for our final prototype.
+                        </p>
+
+
+                    </div>
+                </div>
+                <div data-aos="fade-up">
+                    <div class="row">
+                        <h4 class="rootedHighlight">Research</h4>
+                        <h2>"All of them [previous plants] died" - Interviewee</h2>
+
+                        <p>In order to fully understand the problem space, <b>we conducted user interviews to gain insight</b> on what needs
+                             the potential users of our app would have, as well as understanding their current life and daily workflow
+                              with respect to how our app would fit within that.
+                        </p>
+
+                        <img src="assets/rooted/miro.jpg">
+                        <div class="center">
+                            <a href="https://miro.com/app/board/uXjVOSIRAIc=/?invite_link_id=481225194154"><button>View Miro Board</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div data-aos="fade-up">
+                    <div class="row">
+                        <h4 class="rootedHighlight">Research Insights</h4>
+                        <h2>Individuals use a variety of mediums to learn and understand how to better care for their plants.</h2>
+
+                            <p>90% of all interviewees indicated that online resources are their source of knowledge and where they go to find
+                                 new information. Combining a variety of mediums such as <b>YouTube, mobile apps, discussion forums and
+                                  graphics/diagrams</b> , individuals can form a better understanding on how to take best care of their specific 
+                                  plants in their specific circumstance/situation. </p>
+                    </div>
+                </div>
+
+                <div data-aos="fade-up">
+                    <div class="row">
+                        <h4 class="rootedHighlight">Research Insights</h4>
+                        <h2>Novice plant owners fixate their care attention on water and sunlight.</h2>
+
+                            <p>When asked what plant care looks like to them, 4/5 novice plant owner interviewees described plant care
+                                 as water and sunlight. As one interviewee said,
+                                  <b>"it's just a plant so it just needs water and sunlight."</b> This is very different from experienced plant
+                                   owners, who acknowledge many more areas of interest that plant care requires (including soil pH, root
+                                    care, and humidity). This indicates that novice plant owners could greatly benefit from plant
+                                     care education</p>
+
+                        <img src="assets/rooted/miro_sun.jpg">
+                    </div>
+                </div>
+
+                <div data-aos="fade-up">
+                    <div class="row">
+                        <h4 class="rootedHighlight">Research Insights</h4>
+                        <h2>Plant owners don't want to keep a strict schedule for plant care, but still want to be consistent.</h2>
+
+                            <p>We found that 8 out of the 10 plant owners we interviewed didn't have or want to implement a strict 
+                                schedule for plant care. Yet, consistency was still listed as a goal by the majority of interviewees.
+                                 Plant owners would rather determine care based on needs rather than following a strict schedule.
+                                  This can be seen in notes on the affinity map below, where the "flexible schedule" area contains user 
+                                  tendencies we recorded. According to botanists, <b>"plants thrive on consistency,"</b> making consistent
+                                   care an important factor whether users actively seek to achieve it or not.</p>
+
                         
-                        <h1>Project Scope</h1>
-                            
-                        <div class="card">
-                            <p>
-                                <b>Problem Overview:</b>
-                                <ul>
-                                    <li>70% of millennials call themselves a “plant parent”</li>
+                        <div class="col-md-4">
+                            <img src="assets/rooted/Team Fried Rice Fanatics_ Brainstorming.jpg">
+                        </div>
+                      <div class="col-md-8">
+                            <img src="assets/rooted/miro_sched.jpg">
+                        </div>
+                    </div>
+                </div>
+                    
+                <hr data-aos="fade-up">
+                    
+                
 
-                                    <li>40% of millennials plan to buy a houseplant this year</li>
-                                        
-                                    <li>67% of those who do have plants say “plant parenthood” is tougher than they expected it to be</li>
-                                </ul>
-                            </p>
+                <div data-aos="fade-up">
+                    
+                        <h1 class="rootedh1">3. Ideation</h1>
+                    
 
-                            <p>
-                                <b>Problem Statement</b>
-                                How might we educate plant owners about their plants and how to care for them, in and around their home?
-                            </p>
-                       
+                </div>
+
+                <div data-aos="fade-up">
+                    <div class="row">
+
+                        <h4 class="rootedHighlight">Ideation</h4>
+                        <h2>Personas allowed us to better understand our user's needs, possible backgrounds, and goals </h2>
+
+                        <div class="col-md-6">
+                            <img src="assets/rooted/A4 - 1 (1).png" class="border">
+                        </div>
+                    
+                        <div class="col-md-6">
+                            <img src="assets/rooted/A4 - 2.png" class="border">
                         </div>
 
-                        <hr>
+                        <p>To better represent our insights through actionable means, we created user personas of our <b>target audience.</b>
+                             These personas allowed us to better understand our user's needs, possible backgrounds, and goals 
+                             for navigating our app. Using this knowledge, we were able to ensure we addressed all relevant 
+                             user goals and needs in the design of our app.
 
+                        </p>
                     </div>
+
+                    <div class="row">
+
+
+                        <h4 class="rootedHighlight">Ideation</h4>
+                        <h2>Storyboards helped us visualize how people would use our app.</h2>
+
+                        <p>In order to better <b>understand</b> possible scenarios regarding our plant care and reminder features, 
+                            we created storyboards representing how someone would use our app.</p>
+
+                        <img src="assets/rooted/storyboard.jpg" class="rootedImg">
+                        
+                    </div>
+
+                    <div class="row">
+
+                        <h4 class="rootedHighlight">Ideation</h4>
+                        <h2>Userflows</h2>
+                        <p>To more clearly show how users will be <b>navigating</b> our app, we created a user flow chart.
+                             This chart depicts how users would likely be using the different features of our app.</p>
+                        <img src="assets/rooted/userflow.jpg" class="rootedImg">
+                    </div>
+
+                    <hr data-aos="fade-up">
+                    
                 </div>
 
 
-                
                 <div data-aos="fade-up">
+                    
+                        <h1 class="rootedh1">4. Design</h1>
+                    
 
-                    <div class="row">
-                        <h1>Competitive Analysis</h1>
-                        <p>Our group analyzed 6 different direct and indirect competitors; these groups involved topics of plant care, education, and habit tracking. We looked into gardening apps such as Planta and Gardenia, other types of identification apps such as DogScanner and Shroomify, as well as Youtube channels that detailed testimonials of people’s plant journey as well as offering experience-based advice. We selected our dimensions based on what we thought might be important to address in the problem space (specifically education, reminders, and habit tracking) as well as what features could enhance our design if we implemented them (such as advice/chatting/and social capabilities, journaling, and item identification).</p>
-                     
-                        <iframe src="assets/rooted/comp.pdf" width="100%" height="400em"></iframe>
-                    </div>
                 </div>
 
                 <div data-aos="fade-up">
+                    <div class="row">
+                        <h4 class="rootedHighlight">Design Approach</h4>
+                        <h2>Guidelines for UI Design</h2>
+                        <img src="assets/rooted/guidelines.png">
+                    </div>
 
                     <div class="row">
-                        <div class="card">
-                            <h3 class="center">Significance & Takeaways</h3>
-                                <p>By conducting our competitive analysis on apps in a similar target space, we were able to identify key features we should include in our own app design as well as certain features that may not be as relevant or desired to our target audience. Overall, this, in combination with our user interviews and key insights, was able to help inform the design decisions and ideation process needed for our final prototype.
+                        <h4 class="rootedHighlight">Design Approach</h4>
+                        <h2>Mid-Fidelity Wireframes</h2>
+
+                        <div class="col-md-6" id="midalign">
+                            <p>After evaluating and critiquing our sketches within our group, we found that there were 
+                                changes to be made in our sketches to include into our mid-fi wireframes, as well as other
+                                 features we wanted to include. <b>Our full feature list includes: onboarding, plant encyclopedia,
+                                  reminders, plant scanner, explore, and user profile.</b>
+                            </p>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="assets/rooted/wireframes.jpg">
+                        </div>
+                    </div>
+
+                    
+                </div>
+
+                <div data-aos="fade-up">
+                    <div class="row">
+                        <h4 class="rootedHighlight">Final Design</h4>
+                        <h2>Key Focus points of our app include: Care Schedules, Education, Identification</h2>
+
+                        <div class="row"  id="feature">
+                            <div class="col-md-5">
+                                <img src="assets/rooted/sun2.png" class="paddingRight">
+                            </div>
+                            <div class="col-md-7" id="midalign">
+                                <h2>Care Schedules</h2>
+                                <p>Many users wanted help with keeping a <b>consistent schedule</b> for their plant care.
+                                    To address this, we implemented a <a>reminder & notification feature</a> that will notify users of 
+                                    any immediate tasks, upcoming tasks, and prior tasks for each of their plants.
                                 </p>
-                        </div>
-
-                        <hr>
-                     </div>
-                    
-                </div>
-
-                <div data-aos="fade-up">
-
-                    <div class="row">
-                        <h1>User Interviews</h1>
-                            <p><b>In order to fully understand the problem space, we conducted user interviews to gain insight on what needs the potential users of our app would have, as well as understanding their current life and daily workflow with respect to how our app would fit within that.
-
-                            </b>
-                            </p>
-                            <p><b>Potential Participants: </b>
-                                <br>
-                                <ul>
-                                    <li>
-                                        We want to have at least 2 participants interviewed by each person, potentially more if possible → will likely interview more in order to find a mix of indoor/outdoor experience and to refine our problem statement
-                                    </li>
-                                    <li>
-                                        Ideally:
-                                    </li>
-                                    <ul>
-                                        <li>
-                                            People who are interested in becoming plant owners
-                
-                                        </li>
-                                        <li>
-                                            People who consider themselves new to plant ownership (less than 1 year of ownership)
-                                        </li>
-                                        <li>People who consider themselves experienced plant owners</li>
-                                        <li>A mix of participants who keep indoor plants and participants who keep outdoor plants</li>
-                                    </ul>
-                                </ul>
-                            
-                            </p>
-                            <p>In terms of recruiting, our group utilized some of our parents, acquaintances, roommates, etc. who had fit within these criteria.</p>
-                            <img src="assets/rooted/miroboard.jpg">
-
-                            <a href="https://miro.com/app/board/uXjVOSIRAIc=/?invite_link_id=481225194154" class="center">View Miro Board</a>
-                     <hr>
-                     
-                        </div>
-                </div>
-                <div data-aos="fade-up">
-
-                    <div class="row">
-                        <h1>Key Inisghts</h1>
-                            <p>
-                            After conducting the interviews, we reconvened as a team to assess our findings and identify key insights using a miro board. On the miro board, each member of the team noted key findings that stood out to them. After writing all the relevant information gathered from our data, we began grouping any correlating ideas and took note of key patterns.
-                            </p>
-                            <p>According to novice plant owner interviewees, maintaining a care taking schedule and building good initial habits are difficult. Almost all participants described over- or under-watering as a key factor in the death of their plants. Cognitive psychologists suggest that 
-                                <a href="http://www.helpingyouengineeryourfuture.com/habits-work-smarter.htm">over 40% of daily human behavior is considered a habit (Walesh)</a>.
-                                 Thus providing a solution that allows them to effectively and routinely maintain their plants would be highly beneficial long-term.</p>
-                        
-                        <div class="card">
-                            <p class="center-p">User Tendency</p>
-                            <h3>Individuals use a variety of mediums to learn and understand how to better care for their plants.</h3>
-                            <p>90% of all interviewees indicated that online resources are their source of knowledge and where they go to find new information. Combining a variety of mediums such as 
-                                <b>YouTube, mobile apps, discussion forums and graphics/diagrams
-                                    </b>
-                                , individuals can form a better understanding on how to take best care of their specific plants in their specific circumstance/situation. According to researchers, reducing complexity and presenting information in different means increases comprehension by up to 43% (Fergusson).</p>
-                            
-                        </div>
-
-
-                        <div class="card">
-                            <p class="center-p">User Tendency</p>
-                            <h3>Novice plant owners fixate their care attention on water and sunlight.
-                            </h3>
-                            <p>When asked what plant care looks like to them, 4/5 novice plant owner interviewees described plant care as water and sunlight. This could be because they have limited knowledge. As one interviewee said, 
-                                <b>
-                                    "it's just a plant so it just needs water and sunlight."
-                                </b>
-                                This is very different from experienced plant owners, who acknowledge many more areas of interest that plant care requires (including soil pH, root care, and humidity). This indicates that novice plant owners could greatly benefit from plant care education.
-                            </p>
-                            <img src="assets/rooted/miro_sun.jpg">
-                        </div>
-
-                        <div class="card">
-                            <p class="center-p">User Goals & Challenges</p>
-                            <h3>Plant owners don't want to keep a strict schedule for plant care, but still want to be consistent.
-                            </h3>
-                            <p>We found that 8 out of the 10 plant owners we interviewed didn't have or want to implement a strict schedule for plant care. Yet, consistency was still listed as a goal by the majority of interviewees. Plant owners would rather determine care based on needs rather than following a strict schedule. This can be seen in notes on the affinity map below, where the "flexible schedule" area contains user tendencies we recorded. According to botanists, 
-                                <b>"plants thrive on consistency,"</b> 
-                                making consistent care an important factor whether users actively seek to achieve it or not. 
-                            </p>
-                            <div class="row" id="nospace">
-                                <div class="col-4">
-                                    <img src="assets/rooted/Team Fried Rice Fanatics_ Brainstorming.jpg">
-                                </div>
-                                <div class="col-8">
-                                    <img src="assets/rooted/miro_sched.jpg">
-                                </div>
                             </div>
                         </div>
 
-                        <hr>
+                        <div class="row"  id="feature">
 
-                    </div>
-                    <div class="row">
-                        <h1>Protoyping</h1>
-                        <div class="card">
-
-                            <div class="row" id="nospace">
-                                    <div class="col-6">
-                                        <img src="assets/rooted/persona1.jpg">
-                                    </div>
-                                    <div class="col-6">
-                                        <img src="assets/rooted/persona2.jpg">
-                                    </div>
-                            
+                            <div class="col-md-7" id="midalign">
+                                <h2>Education</h2>
+                                <p>Users mentioned that they wanted to be more informed about their plants in order to feel more readily prepared to care for them.
+                                    To accomplish this goal, we implemented a plant encyclopedia which provides alist of alphabetically sorted 
+                                    plant names, as well as a search bar for easier navigation.
+                                    Once the desired plant is selected, an <b>information card of the plant is presented,
+                                    giving information regarding it's care, issues, and background.</b> 
+                                </p>
                             </div>
-                            <p>To better represent our insights through actionable means, we created user personas of our target audience. These personas allowed us to better understand our user’s needs, possible backgrounds, and goals for navigating our app. Using this knowledge, we were able to ensure we addressed all relevant user goals and needs in the design of our app.
-                            </p>
+                            <div class="col-md-5">
+                                <img src="assets/rooted/encyclopedia2.png" class="paddingLeft">
+                            </div>
                         </div>
 
-                        <img src="assets/rooted/storyboard.jpg">
-                        <p>In order to better understand possible scenarios regarding our plant care and reminder features, we created storyboards representing how someone would use our app.
-                        </p>
-
-                        <img src="assets/rooted/userflow.jpg">
-
-                        <p>Explore, Encyclopedia, Reminders, Scanner and User Profiles are the main features of our app. We included an encyclopedia feature on our prototype because through interviews we found that new plant owners wanted to learn more about plants overall and we thought this solution would allow users to easily find out more about specific species. The encyclopedia feature is intended to be a convenient lookup with pertinent information regarding plants and their care readily available. The scanning feature in particular is one we decided to integrate after doing our competitive analysis, where we found several competing/similar applications that had this capability readily available. The scanner would allow users to quickly identify a plant without them having to know any background information or knowledge on the plant, which is important for new users. According to the reviews, an overwhelming amount of users in general found this an extremely useful feature which is why we are building it as one of the key capabilities in of final prototype. As discovered in outside literature as well in the majority of user interviews where the interviewee was a novice, first time plantowners have a difficult time remembering when and how much to water their plants. Outside literature emphasizes building good habits, which is why the reminders feature is another integral part of our app design. Including tools that help individuals to build a good routines provide long term benefits for their plant care regimen. The explore page helps customize each users experience by showing them what species they can grow in their local area (assuming location services are enabled) and displays trending plants nearby. This increases user retention as well as provides a better overall user experience to plantowners of all levels, beginner to advanced, which is why we have chosen to include it in our final prototype- being able to filter based on geolocation or season allows for increased usability across the board.       
-
-</p>
-
-                        <div class="card">
-                            <h3 class="center">Significance & Takeaways</h3>
-                            <p>In creating tangible prototypes, we learned a great deal about how users would physically interact with our solution. We were also able to better visualize how each planned feature would actually be utilized to meet a user need. The prototype served as our foundation for the evaluation and refinement stages later on.
-                            </p>
-                        </div>
-
-                        <hr>
-
-                    </div>
-                    <div class="row">
-                        <h1>Evaluations</h1>
-                        <p>To evaluate our high-fidelity prototype, we created a usability testing process. This process was designed for an interviewer to walk a user through a series of tasks, testing the usability of the screens and flows we included. We ended up conducting usability tests on 5 users, all new or interested plant owners (our target audience).
-                        </p>
-                        <div class="card">
-                            <p class="center-p">Key Findings</p>
-                            <h3>Positives</h3>
-                            <p>1.  Reminder system is highly appreciated - 3/5 users mentioned that the reminder system was helpful. This verified our initial hypothesis that the reminders would be useful to new and interested plant owners.</p>
-                            <p>2. Scanning feature is convenient and of high value to these new plant owners - 3/5 users expressed praise for the convenience of the scanning feature, indicating that it relieved a key pain point for our target users.</p>
-                        </div>
-                        <div class="card">
-                            <p class="center-p">Key Findings</p>
-                            <h3>Negatives</h3>
-                            <p>1. Hamburger menu caused confusion since it wasn’t utilized - 4/5 users commented about the hamburger menu, due to its lack of functionality during usability testing.
-
-                            </p>
-                            <p>2. Button contrast can be improved - locating buttons was difficult at times due to poor visibility. Several participants mentioned that the color of buttons or other icons made it difficult to locate/recognize as clickable items.
-
-                            </p>
-                        </div>
-                        <div class="card">
-                            <p>Key Insights</p>
-                            <h3>Overall</h3>
-                            <p>Users really liked the app's interface, with an average overall rating of 8.4/10. Next steps would include leveraging the insights we discovered during usability testing to improve our app's user experience.
-                        </p>
-                        </div>
-                        
-                        <div class="card">
-                            <h3 class="center">Significance & Takeaways</h3>
-                            <p>By evaluating our prototypes through usability testing, we were able to learn about the user experience of our primary features including what people liked and disliked. This informed the basis for our final prototype iterations.
-
-                            </p>
+                        <div class="row" id="feature">
+                            <div class="col-md-5">
+                                <img src="assets/rooted/scanning1.png" class="paddingRight">
+                            </div>
+                            <div class="col-md-7" id="midalign">
+                                <h2>Identification</h2>
+                                <p>In order to make the plant identification process easier and faster, we decided to make a plant scanning feature that will allow users
+                                    to input their plants with a <b>quick camera scan.</b> Knowing what plant you have is crucial to knowing how to properly care for it's specific needs.
+                                </p>
+                            </div>
                         </div>
                     </div>
+
+        
+
+                    <hr data-aos="fade-up">
+                    
                 </div>
-
-                
-
-                <!--
-                
 
                 <div data-aos="fade-up">
-
-                <div class="row">
-                    <h1>Sketches and User Flow</h1>
-
                     
-                        <div class="col-md-6">
-                            <p><b>Onboarding</b></p>
-                            <div class="sketch">
-                                <img src="assets/rooted/Onboarding - 1.jpg">
-                                <img src="assets/rooted/Onboarding - 2.jpg">
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <p><b>Reminders and Notifications</b></p>
-                            <div class="sketch">
-                                <img src="assets/rooted/PlantApp_EmptyReminders.jpg">
-                                <img src="assets/rooted/PlantApp_ReminderSetting.jpg">
-                            </div>
-                        </div>
-                        
+                        <h1 class="rootedh1">5. Evaluate</h1>
                     
-
-                    
-                        <div class="col-md-6">
-                            <p><b>Plant Identifier</b></p>
-                            <div class="sketch">
-                                <img src="assets/rooted/Identifier2_Scanning.jpeg">
-                                <img src="assets/rooted/Identifier4_InfoCard.jpeg">
-                            </div>
-                        </div>
-
-                        <div class="col-md-6">
-                            <p><b>Plant Encyclopedia</b></p>
-                            <div class="sketch">
-                                <img src="assets/rooted/indoor_plants.jpg">
-                                <img src="assets/rooted/aloe_vera.jpg">
-                            </div>
-                        </div>
 
                 </div>
-                </div>
+
                 <div data-aos="fade-up">
-                <div class="row">
-                    <h1>Mid Fidelity Wireframes</h1>
-                    <p><b>Scanning a Plant</b></p>
-                        <div class="scanners">
-                            <img src="assets/rooted/scanner1.jpg">
-                            <img src="assets/rooted/scanner2.jpg">
-                            <img src="assets/rooted/scanner3.jpg">
-                            <img src="assets/rooted/scanner4.jpg">
-                        </div>
+                    <div class="row">
+                        <h4 class="rootedHighlight">Evaluation</h4>
+                        <h2>Users really liked the app's interface, with an average overall rating of 8.4/10</h2>
 
+                        <p>To evaluate our high-fidelity prototype, we created a <b>usability testing process.</b> 
+                            This process was designed for an interviewer to walk a user through a series of tasks,
+                             <b>testing the usability of the screens and flows</b> we included. We ended up conducting usability
+                              tests on 5 users, all new or interested plant owners (our target audience).
+
+                        </p>
+                    </div>
+                    
                 </div>
-                <div class="row">
-                    <h1>High Fidelity Wireframes</h1>
-                        <div class="col-md-6">
-                            <p><b>Onboarding</b></p>
-                            <div class="sketch">
-                                <img src="assets/rooted/onboarding.png">
-                                <img src="assets/rooted/onboarding2.png">
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <p><b>Reminders and Notifications</b></p>
-                            <div class="sketch">
-                                <img src="assets/rooted/sun1.png">
-                                <img src="assets/rooted/sun2.png">
-                            </div>
-                        </div>
-                        
+
+                <div data-aos="fade-up">
+                    <div class="row">
+                        <h4 class="rootedHighlight">Evaluation Findings</h4>
+                        <h2>Positives</h2>
+
+                        <p>
+                            1. Reminder system is highly appreciated - <b>3/5 users mentioned
+                             that the reminder system was helpful.</b> This verified our initial
+                              hypothesis that the reminders would be useful to new and interested plant owners.
+                        </p>
+                        <p>
+                            2. <b>Scanning feature is convenient</b> and of high value to these new plant owners
+                             - 3/5 users expressed praise for the convenience of the scanning feature,
+                              indicating that it relieved a key pain point for our target users.
+                        </p>
+                    </div>
+                    
+                </div>
+
+                <div data-aos="fade-up">
+                    <div class="row">
+                        <h4 class="rootedHighlight">Evaluation Findings</h4>
+                        <h2>Negatives</h2>
+
+                        <p>
+                            1. <b>Hamburger menu caused confusion</b> since it wasn't utilized - 
+                            4/5 users commented about the hamburger menu, due to its lack of
+                             functionality during usability testing.
+                        </p>
+
+                        <p>
+                            2. <b>Button contrast can be improved</b> - locating buttons was difficult at times
+                             due to poor visibility. Several participants mentioned that the color of
+                              buttons or other icons made it difficult to locate/recognize as clickable items.
+                        </p>
+                    </div>
+                    
+    
+                    <hr data-aos="fade-up">
+
+                    
+                </div>
+
+                <div data-aos="fade-up">
+                    
+                        <h1 class="rootedh1">6. Reflect</h1>
                     
 
+                </div>
+
+                <div data-aos="fade-up">
+                    <div class="row">
+                        <h4 class="rootedHighlight">Reflection</h4>
+                        <h2>Learnings & Reflections</h2>
+
+
+
+                        <p>Throughout the 10 week process we learned a lot about each step of the design process.
+                             At a high level, <b>we learned how to explore a problem space, narrow the problem space,
+                              build a solution that solves the problem, and finally refine that solution based on
+                               user feedback.</b> </p>
+                    </div>
                     
-                        <div class="col-md-6">
-                            <p><b>Plant Identifier</b></p>
-                            <div class="sketch">
-                                <img src="assets/rooted/scanning1.png">
-                                <img src="assets/rooted/scanning2.png">
-                            </div>
-                        </div>
-
-                        <div class="col-md-6">
-                            <p><b>Plant Encyclopedia</b></p>
-                            <div class="sketch">
-                                <img src="assets/rooted/encyclopedia.png">
-                                <img src="assets/rooted/encyclopedia2.png">
-                            </div>
-                        </div>
-
-                        <a href="https://www.figma.com/proto/7fJIqWi6WDaqXQFB8j34dF/INF132%3A-Rooted-App?node-id=116%3A2083&scaling=scale-down&page-id=74%3A2&starting-point-node-id=116%3A2083&show-proto-sidebar=1" class="prototype">View full clickable prototype</a>
-
                 </div>
-                </div>
+                
             </div>
         </div>
-    -->
-</div></div></body>
+    </div>
+
+</body>
 
         <script>
             AOS.init();

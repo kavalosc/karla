@@ -12,7 +12,7 @@
 body {
     background-color: var(--background-color) !important;
     color: var(--color) !important;
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 
     transition: background-color 500ms, color 500ms;
 
@@ -27,6 +27,7 @@ body {
 #navRow {
     padding-top: 2em;
     padding-bottom: 2em;
+    margin-bottom: 0;
 }
 #navRow img {
   text-align: center;
@@ -44,7 +45,7 @@ body {
   color: #7879F1;
 }
 nav {
-    font-family: 'DM Sans';
+    font-family: 'Work Sans';
     text-align: right;
 }
 
@@ -67,30 +68,37 @@ nav a.active {
     padding-bottom: 10px;*/
 
 }
-nav button {
+ button {
     display: inline;
     background-color: black;
     color: white;
-    border-radius: 10px;
+    border-radius: .5em !important;
     border: solid black;
     padding-left: .5em;
     padding-right:.5em;
+    margin-bottom: 2em !important;
 }
 
-nav button:hover {
+button:hover {
     background-color: transparent;
     color: var(--blue);
     border: solid 2px var(--blue);
+}
+
+.abutton {
+  text-decoration: none;
 }
 
 /* Header */
 header {
     text-align: center;
     padding-top: 8vw;
+    padding-bottom: 3vw;
 }
 header h1 {
-    font-family: 'DM Sans';
-    font-weight: 700;
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 4vw;
 }
 header h3 {
   font-weight: 400;
@@ -198,8 +206,8 @@ img {
     margin-top: auto;
 }
 #sub-header {
-    margin-bottom: 3.5em;
-    margin-top: 3em
+    margin-bottom: 3em;
+    margin-top: 7em
 
 }
 .col-md-6 img {
@@ -233,7 +241,7 @@ img {
 #about h1 {
     margin-bottom: .5em;
     margin-top: .5em;
-    font-family: "DM Sans";
+    font-family: "Work Sans";
     font-weight: 700;
 }
 
@@ -330,8 +338,13 @@ img {
 
   .app-header {
     text-align: center;
-    padding: 5em;
+    padding-top: 1em;
     margin-bottom: 1em;
+  }
+  .app-header .col-md-6 {
+    margin-top:auto;
+    margin-bottom: auto;
+    display: block;
   }
 
   .app-header h1 {
@@ -339,20 +352,13 @@ img {
     margin-bottom: .5em;
   }
 
-  .app-background {
-    padding-left: 2vw;
-    padding-right: 2vw;
-  }
+ 
 
   .app-background h1 {
     margin-bottom: 1em;
-    text-align: center;
+    text-align: left;
   }
 
-  .app-background .row {
-    margin-bottom: 4em;
-    padding: 4em;
-  }
 
   .app-background img {
     margin-top: 1em;
@@ -450,8 +456,8 @@ img {
 }
 
 .container {
-  padding-left: 3vw !important;
-  padding-right: 3vw !important;
+  padding-left: 10vw !important;
+  padding-right: 10vw !important;
 }
 #app-col {
   padding: 2vw;
@@ -501,12 +507,12 @@ img {
 }
 
 ul {
-  margin-left: 2em;
+  margin-left: 4em;
 }
 
 .center-p {
   color:#7879F1;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 a {
@@ -517,10 +523,129 @@ a:hover {
 }
 
 .card h3 {
-  margin-bottom: .5em;
+  margin-bottom: 1.5em;
+}
+
+.row {
+  margin-bottom: 10vw;;
+}
+
+hr {
+  margin-top: 8em !important;
+  margin-bottom: 8em !important;
+}
+
+.caption {
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 2em;
+}
+
+p {
+  line-height: 2;
+  margin-top: 1em;
+}
+
+ul {
+  line-height: 2;
+}
+
+
+/* Rooted app */
+
+#rootedFinal2 {
+  width: 45vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.rootedImg {
+  width: 45vw !important;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.col-3 img {
+  border-radius: 1vw;
+}
+
+#app-col h3 {
+  margin-bottom: 1em;
 }
 
 
 hr {
-  margin-top: 8em !important;
+  height: 2px !important;
+}
+
+.rootedHighlight {
+  color: #0CA789;
+  display: inline;
+  font-weight: 500;
+}
+
+.rootedh1 {
+  font-weight: bold;
+  text-align: center !important;
+  margin-bottom: 3em !important;
+}
+
+.qteaHighlight {
+  color: #7879F1;
+  display: inline;
+  font-weight: 500;
+}
+
+.yumtumHighlight {
+  color: #FF715B;
+  display: inline;
+  font-weight: 500;
+}
+
+
+iframe {
+  margin-top: 2em !important;
+  margin-bottom: 3em !important;
+}
+
+video {
+  margin-bottom: 2em !important;
+  margin-top: 2em !important;
+}
+
+.border {
+  border: 2px solid #28262C;
+}
+
+
+
+h2 {
+  font-weight: bold;
+  margin-bottom: 1em !important;
+}
+
+#feature {
+  padding-left: 6vw;
+  padding-right: 6vw;
+}
+
+.col-md-6 {
+  margin-top: auto;
+  margin-bottom: auto;
+  display: block;
+}
+
+.paddingLeft {
+  padding-left: 2em;
+}
+
+.paddingRight {
+  padding-right: 2em;
+}
+
+.yumimg {
+  text-align: left;
+  width: 80%;
 }
