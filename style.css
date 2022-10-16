@@ -229,8 +229,14 @@ img {
   border: 1px solid lightgray;
 
 }
+
+.apps {
+  text-decoration: none;
+  border-radius: 1vw;
+}
 .apps:hover {
-    opacity: .7;
+    background-color: #F9F5FF;
+    color: #28262C !important;
 }
 
 /* About page */
