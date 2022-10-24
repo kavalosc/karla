@@ -1,11 +1,11 @@
 /* Variables for dark mode */
 :root {
     --color: #28262C;
-    --background-color: white;
+    --background-color: #F9F9F9;
     --blue: #7879F1;
     --yellow: #F9CB40;
     --red: #FF715B;
-    --light: #F9F5FF;
+    --light: #EAEAF5;
     --inactive: #afafaf;
 }
 
@@ -71,7 +71,7 @@ nav a.active {
  button {
     display: inline;
     background-color: black;
-    color: white;
+    color: #F9F9F9;
     border-radius: .5em !important;
     border: solid black;
     padding-left: .5em;
@@ -155,7 +155,7 @@ header h3 {
 
 /* Footer */
 footer {
-    background-color: #F9F5FF;
+    background-color: #EAEAF5;
     padding-bottom: 3em;
     padding-top: 3em;
     margin-top: 2em;
@@ -226,7 +226,7 @@ img {
 }
 
 .wireframe {
-  border: 1px solid lightgray;
+  border: 1px solid #EAEAF5;
 
 }
 
@@ -235,7 +235,7 @@ img {
   border-radius: 1vw;
 }
 .apps:hover {
-    background-color: #F9F5FF;
+    background-color: #EAEAF5;
     color: #28262C !important;
 }
 
@@ -310,7 +310,7 @@ img {
     width: 1em;
     left: 4px;
     bottom: 4px;
-    background-color: white;
+    background-color: #F9F9F9;
     -webkit-transition: .4s;
     transition: .4s;
   }
@@ -519,6 +519,7 @@ ul {
 .center-p {
   color:#7879F1;
   font-weight: 500;
+  text-transform: uppercase;
 }
 
 a {
@@ -590,6 +591,7 @@ hr {
   color: #0CA789;
   display: inline;
   font-weight: 500;
+  text-transform: uppercase;
 }
 
 .rootedh1 {
@@ -602,12 +604,14 @@ hr {
   color: #7879F1;
   display: inline;
   font-weight: 500;
+  text-transform: uppercase;
 }
 
 .yumtumHighlight {
   color: #FF715B;
   display: inline;
   font-weight: 500;
+  text-transform: uppercase;
 }
 
 
