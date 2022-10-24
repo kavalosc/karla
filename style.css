@@ -2,7 +2,7 @@
 :root {
     --color: #28262C;
     --background-color: #F9F9F9;
-    --blue: #7879F1;
+    --blue: #9A05F2;
     --yellow: #F9CB40;
     --red: #FF715B;
     --light: #EAEAF5;
@@ -42,7 +42,7 @@ body {
   margin: .5em;
 }
 #navRow .material:hover {
-  color: #7879F1;
+  color: #9A05F2;
 }
 nav {
     font-family: 'Work Sans';
@@ -298,7 +298,7 @@ img {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #7879F1;
+    background-color: #9A05F2;
     -webkit-transition: .4s;
     transition: .4s;
   }
@@ -408,7 +408,7 @@ img {
     text-decoration: none;
   }
   .prototype:hover {
-    color:#7879F1;
+    color:#9A05F2;
   }
   .vertical-center {
     width: 100%;
@@ -493,7 +493,7 @@ img {
   height: 13em;
 	border-radius: 50%;  
 	filter: blur(70px);
-  background: radial-gradient(circle at 50% 50%,#7879F1, rgba(76, 0, 255, 0));
+  background: radial-gradient(circle at 50% 50%,#9A05F2, rgba(76, 0, 255, 0));
 }
 .yellow-blurry-gradient {
   transform: translate(65vw, -13vw);
@@ -517,7 +517,7 @@ ul {
 }
 
 .center-p {
-  color:#7879F1;
+  color:#9A05F2;
   font-weight: 500;
   text-transform: uppercase;
 }
@@ -526,7 +526,7 @@ a {
   color:#28262C !important;
 }
 a:hover {
-  color:#7879F1 !important;
+  color:#9A05F2 !important;
 }
 
 .card h3 {
@@ -588,7 +588,7 @@ hr {
 }
 
 .rootedHighlight {
-  color: #0CA789;
+  color: #16A63E;
   display: inline;
   font-weight: 500;
   text-transform: uppercase;
@@ -601,7 +601,7 @@ hr {
 }
 
 .qteaHighlight {
-  color: #7879F1;
+  color: #9A05F2;
   display: inline;
   font-weight: 500;
   text-transform: uppercase;
