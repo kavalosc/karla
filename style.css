@@ -1,7 +1,7 @@
 /* Variables for dark mode */
 :root {
     --color: #28262C;
-    --background-color: #F9F9F9;
+    --background-color: #FEFEFE;
     --blue: #949CC7;
     --yellow: #F9CB40;
     --red: #FF715B;
@@ -71,7 +71,7 @@ nav a.active {
  button {
     display: inline;
     background-color: black;
-    color: #F9F9F9;
+    color: #FEFEFE;
     border-radius: .5em !important;
     border: solid black;
     padding-left: .5em;
@@ -91,17 +91,19 @@ button:hover {
 
 /* Header */
 header {
-    text-align: center;
+    text-align: left;
     padding-top: 8vw;
     padding-bottom: 3vw;
 }
 header h1 {
     font-family: 'Work Sans';
     font-weight: 600;
-    font-size: 4vw;
+    font-size: 4.1vw;
 }
 header h3 {
+  margin-top: 1em;
   font-weight: 400;
+  line-height: 1.5em;
 }
 
 .inline h1{
@@ -310,7 +312,7 @@ img {
     width: 1em;
     left: 4px;
     bottom: 4px;
-    background-color: #F9F9F9;
+    background-color: #FEFEFE;
     -webkit-transition: .4s;
     transition: .4s;
   }
@@ -601,7 +603,7 @@ hr {
 }
 
 .qteaHighlight {
-  color: #949CC7;
+  color: #7879F1;
   display: inline;
   font-weight: 500;
   text-transform: uppercase;
@@ -658,4 +660,12 @@ h2 {
 .yumimg {
   text-align: left;
   width: 80%;
+}
+
+.rainbow {
+  background-image: linear-gradient(to right, #EDB5D5 , #F2B5BD, #F6D3B5, #FCF7BC, #DAEBBA, #BBE1EF);
+  display: inline;
+  padding-left: .2em;
+  padding-right: .2em;
+  border-radius: .1em;
 }
