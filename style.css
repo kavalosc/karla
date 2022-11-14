@@ -15,6 +15,7 @@ body {
     font-family: 'Work Sans', sans-serif;
 
     transition: background-color 500ms, color 500ms;
+    position: relative;
 
 }
 
@@ -43,6 +44,7 @@ body {
 }
 #navRow .material:hover {
   color: #949CC7;
+  transition: 250ms color;
 }
 nav {
     font-family: 'Work Sans';
@@ -56,9 +58,11 @@ nav a {
 }
 nav a:hover {
     color: var(--blue);
+    transition: 250ms color;
 }
 nav a.active:hover {
     color: var(--blue);
+    transition: 250ms color;
 }
 nav a.active {
     color: var(--color);
@@ -73,7 +77,7 @@ nav a.active {
     background-color: black;
     color: #FEFEFE;
     border-radius: .5em !important;
-    border: solid black;
+    border: solid 2px black;
     padding-left: .5em;
     padding-right:.5em;
     margin-bottom: 2em !important;
@@ -83,6 +87,7 @@ button:hover {
     background-color: transparent;
     color: var(--blue);
     border: solid 2px var(--blue);
+    transition: 250ms background-color;
 }
 
 .abutton {
@@ -247,6 +252,7 @@ img {
 .apps:hover {
     background-color: #E4E7F1;
     color: #28262C !important;
+    transition: 250ms background-color;
 }
 
 /* About page */
@@ -419,6 +425,7 @@ img {
   }
   .prototype:hover {
     color:#949CC7;
+    transition: 250ms color;
   }
   .vertical-center {
     width: 100%;
@@ -537,6 +544,7 @@ a {
 }
 a:hover {
   color:#949CC7 !important;
+  transition: 250ms color;
 }
 
 .card h3 {
@@ -676,4 +684,32 @@ h2 {
   padding-left: .2em;
   padding-right: .2em;
   border-radius: .1em;
+}
+
+
+.scroll-container {
+  position: absolute;
+  top: 0;
+  right:5vw;
+  height: 100%;
+  
+}
+
+.scroll-container:before {
+  content: '';
+  display: block;
+  height: 120vh;
+  pointer-events: none;
+}
+
+.scroll-container a {
+  position: sticky !important;
+  top: 84vh;
+  cursor: pointer;
+  padding: 1em;
+  border-radius: 50% !important;
+  background-color: #28262C;
+  color: #FEFEFE !important;
+  display: flex;
+  text-decoration: none;
 }
