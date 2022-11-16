@@ -2,10 +2,10 @@
 :root {
     --color: #28262C;
     --background-color: #FEFEFE;
-    --blue: #949CC7;
+    --blue: #3B81BA;
     --yellow: #F9CB40;
     --red: #FF715B;
-    --light: #E4E7F1;
+    --light: #EFF5FA;
     --inactive: #afafaf;
 }
 
@@ -43,7 +43,7 @@ body {
   margin: .5em;
 }
 #navRow .material:hover {
-  color: #949CC7;
+  color: #3B81BA;
   transition: 250ms color;
 }
 nav {
@@ -170,7 +170,7 @@ header h3 {
 
 /* Footer */
 footer {
-    background-color: #E4E7F1;
+    background-color: #EFF5FA;
     padding-bottom: 3em;
     padding-top: 3em;
     margin-top: 2em;
@@ -241,7 +241,7 @@ img {
 }
 
 .wireframe {
-  border: 1px solid #E4E7F1;
+  border: 1px solid #EFF5FA;
 
 }
 
@@ -250,7 +250,7 @@ img {
   border-radius: 1vw;
 }
 .apps:hover {
-    background-color: #E4E7F1;
+    background-color: #EFF5FA;
     color: #28262C !important;
     transition: 250ms background-color;
 }
@@ -314,7 +314,7 @@ img {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #949CC7;
+    background-color: #3B81BA;
     -webkit-transition: .4s;
     transition: .4s;
   }
@@ -424,7 +424,7 @@ img {
     text-decoration: none;
   }
   .prototype:hover {
-    color:#949CC7;
+    color:#3B81BA;
     transition: 250ms color;
   }
   .vertical-center {
@@ -510,7 +510,7 @@ img {
   height: 13em;
 	border-radius: 50%;  
 	filter: blur(70px);
-  background: radial-gradient(circle at 50% 50%,#949CC7, rgba(76, 0, 255, 0));
+  background: radial-gradient(circle at 50% 50%,#3B81BA, rgba(76, 0, 255, 0));
 }
 .yellow-blurry-gradient {
   transform: translate(65vw, -13vw);
@@ -534,7 +534,7 @@ ul {
 }
 
 .center-p {
-  color:#949CC7;
+  color:#3B81BA;
   font-weight: 500;
   text-transform: uppercase;
 }
@@ -543,7 +543,7 @@ a {
   color:#28262C !important;
 }
 a:hover {
-  color:#949CC7 !important;
+  color:#3B81BA !important;
   transition: 250ms color;
 }
 
