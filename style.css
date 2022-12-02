@@ -104,6 +104,7 @@ header h1 {
     font-family: 'Work Sans';
     font-weight: 600;
     font-size: 4.1vw;
+    display: inline;
 }
 header h3 {
   margin-top: 1em;
@@ -207,7 +208,7 @@ img {
   border-radius: 2em;
 }
 .col-md-6 img {
-  border-radius: 1em;
+  border-radius: .5em;
 }
 
 #view {
@@ -391,7 +392,7 @@ img {
     padding: 2em !important; 
     border-radius: 1em !important;
     margin-bottom: 2em !important;
-    margin-top: 1em !important;
+    margin-top: 3em !important;
   }
 
   .sketch {
@@ -632,6 +633,11 @@ hr {
   text-transform: uppercase;
 }
 
+.edsightHighlight {
+  color: #3D5BE1;
+  display: 
+}
+
 
 iframe {
   margin-top: 2em !important;
@@ -712,4 +718,35 @@ h2 {
   color: #FEFEFE !important;
   display: flex;
   text-decoration: none;
+}
+
+
+
+.project-card {
+  margin-bottom: 2em;
+  background-color: #ECF2FD;
+  border-radius: .5vw;
+}
+
+.project-card img {
+  margin: 0;
+}
+
+.project-text {
+  padding: 1em;
+}
+
+.project-card:hover {
+  opacity: .7;
+}
+
+.plant {
+  width: 3vw;
+  display:inline;
+  margin-left: 1em;
+}
+
+.flexboxTitle {
+  display: flex;
+  align-items: center;
 }
