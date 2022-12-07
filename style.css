@@ -635,7 +635,13 @@ hr {
 
 .edsightHighlight {
   color: #3D5BE1;
-  display: 
+  display: inline;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+#addspace {
+  margin-top: 4vw;
 }
 
 
@@ -741,7 +747,7 @@ h2 {
 }
 
 .plant {
-  width: 3vw;
+  width: 2.5em;
   display:inline;
   margin-left: 1em;
 }
