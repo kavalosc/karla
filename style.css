@@ -103,7 +103,7 @@ header {
 header h1 {
     font-family: 'Work Sans';
     font-weight: 600;
-    font-size: 4.1vw;
+    font-size: xxx-large;
     display: inline;
 }
 header h3 {
@@ -171,7 +171,7 @@ header h3 {
 
 /* Footer */
 footer {
-    background-color: #ECF2FD;
+    background-color: #F1F7F9;
     padding-bottom: 3em;
     padding-top: 3em;
     margin-top: 2em;
@@ -254,6 +254,8 @@ img {
     background-color: #ECF2FD;
     color: #28262C !important;
     transition: 250ms background-color;
+    position: relative;
+    top: -5px;
 }
 
 /* About page */
@@ -483,6 +485,11 @@ img {
   padding-left: 10vw !important;
   padding-right: 10vw !important;
 }
+
+.containerHeader {
+  padding-left: 14vw !important;
+  padding-right: 14vw !important;
+}
 #app-col {
   padding: 2vw;
 }
@@ -535,7 +542,7 @@ ul {
 }
 
 .center-p {
-  color:#5E7CE2;
+  color:#E74F83;
   font-weight: 500;
   text-transform: uppercase;
 }
@@ -565,6 +572,7 @@ hr {
   text-align: center;
   font-style: italic;
   margin-bottom: 2em;
+  margin-top: 1em;
 }
 
 p {
@@ -607,7 +615,7 @@ hr {
 }
 
 .rootedHighlight {
-  color: #16A63E;
+  color: #49A385;
   display: inline;
   font-weight: 500;
   text-transform: uppercase;
@@ -615,8 +623,7 @@ hr {
 
 .rootedh1 {
   font-weight: bold;
-  text-align: center !important;
-  margin-bottom: 3em !important;
+  margin-bottom: 2em !important;
 }
 
 .qteaHighlight {
@@ -693,6 +700,7 @@ h2 {
 .rainbow {
   background-image: linear-gradient(to right, #EDB5D5 , #F2B5BD, #F6D3B5, #FCF7BC, #DAEBBA, #BBE1EF);
   display: inline;
+  padding: .3em;
   padding-left: .2em;
   padding-right: .2em;
   border-radius: .1em;
@@ -730,20 +738,27 @@ h2 {
 
 .project-card {
   margin-bottom: 2em;
-  background-color: #ECF2FD;
-  border-radius: .5vw;
+  border-radius: 1em;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  box-shadow: 2px 2px 15px lightgrey;
 }
 
 .project-card img {
   margin: 0;
+  object-fit: contain;
+
 }
 
 .project-text {
   padding: 1em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
 }
 
 .project-card:hover {
-  opacity: .7;
+  opacity: 1;
 }
 
 .plant {
@@ -755,4 +770,37 @@ h2 {
 .flexboxTitle {
   display: flex;
   align-items: center;
+}
+
+#front {
+  background-color: white;
+  box-shadow: 2px 2px 15px lightgrey;
+  aspect-ratio: 4/5;
+}
+
+.col-md-12 #front {
+  aspect-ratio: 4/1;
+}
+
+h3 {
+  font-size: xx-large !important;
+}
+
+
+.rootedCard b {
+  color: #49A385;
+}
+
+.rootedCard {
+  padding: 2em;
+  border: #ECF2FD 1px solid;
+  border-radius: 1em;
+  box-shadow: 2px 2px 15px lightgrey;
+  margin-bottom: 1em;
+  aspect-ratio: 1/1;
+}
+
+
+#rootedCard2 {
+  aspect-ratio: 2/1;
 }
