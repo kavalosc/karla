@@ -852,3 +852,8 @@ h2 {
 .greyText {
   color: #647279;
 }
+
+.card-outer {
+  background-image: linear-gradient(.35turn, #EDB5D5, 10%, #BBE1EF);
+  padding: 1em;
+}
