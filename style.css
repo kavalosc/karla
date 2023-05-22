@@ -271,7 +271,7 @@ img {
 #about h1 {
     margin-bottom: .5em;
     margin-top: .5em;
-    font-family: "Work Sans";
+    font-family: "DM Sans";
 }
 
 #about p {
@@ -862,5 +862,9 @@ h2 {
 }
 
 #edsightBg {
+  background-image: linear-gradient(.35turn, #EDB5D5, 10%, #E74F83);
+}
+
+#rootedBg {
   background-image: linear-gradient(.35turn, #EDB5D5, 10%, #E74F83);
 }
