@@ -15,13 +15,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700;500;600&family=Work+Sans:wght@400;600&family=Poppins:wght@200;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
       rel="stylesheet"
     />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600&display=swap"
-      rel="stylesheet"
-    />
+
     <!-- Import Material Icons -->
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
@@ -35,183 +32,126 @@
       href="https://fonts.googleapis.com/icon?family=Material+Symbols+Outlined"
       rel="stylesheet"
     />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
 
+    <!-- ASOS package to add effect -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-
-    <link rel="icon" href="assets/sign.svg" />
-
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
     <script src="/script.js"></script>
   </head>
-
-  <div class="flex-wrapper">
-    <body>
-      <script src="script.js"></script>
-
-      <div class="container">
-        <!-- Navigation Bar -->
-        <div class="row" id="navRow">
-          <!--
-                <div class="col-4">
-                    <div class="left">
-                        <a href="mailto:karlasavalos01@gmail.com" class="material">
-                            <span class="material-icons">email</span>
-                        </a>
-                        <a href="https://www.instagram.com/kar.laav/" class="material">
-                            <span class="iconify-inline" data-icon="ant-design:instagram-filled" data-width="25"></span>
-                        </a>
-                        <a href="https://www.linkedin.com/in/karla-avalos-59849a191/" class="material">
-                            <span class="iconify-inline" data-icon="mdi:linkedin"  data-width="25"></span>
-                        </a>
-                    </div>
-                </div>
-
-                
-                <div class="col-4">
-                    <a href="index.html">
-                        <img src="assets/sign.svg" id="inline-element">
-                    </a>
-                </div>
-                <div class="col-4">
-                    <nav>
-                        <a href="index.html" class="active">Projects</a>
-                        <a href="about.html">Info</a>
-                        <a href="assets/Karla Avalos Resume.pdf" target="_blank"><button>Resume/CV</button></a>
-                        
-                    </nav>
-                </div>
-                -->
-
-          <div class="col-3" id="leftalign">
-            <div class="left">
-              <a href="index.html">
-                <img
-                  src="assets/name-logo.svg"
-                  id="name-logo"
-                  alt="logo reading 'Karla Avalos / Designer / Coder / Creator /' in a circlular format"
-                />
-              </a>
-            </div>
+  <body>
+    <div class="container">
+      <!-- Navigation Bar -->
+      <div class="nav">
+        <a href="index.html" id="no-margin">
+          <div class="logo">
+            <img src="assets/name-logo.svg" />
           </div>
-          <div class="col-9" id="midalign">
-            <nav>
-              <a href="index.html" class="active">Projects</a>
-              <a href="about.html">Info</a>
-              <a href="assets/Karla Avalos Resume 2023.pdf" target="_blank"
-                ><button>Resume/CV</button></a
-              >
-            </nav>
-          </div>
+        </a>
+        <div class="nav-text">
+          <a href="index.html">my work</a>
+          <a href="about.html">about me</a>
+          <a href="assets/Karla Avalos Resume 2023.pdf">resume</a>
         </div>
+      </div>
 
-        <!-- Title + Subtitle -->
+      <!-- Header -->
+      <div class="header">
+        <h1>Hello! Hello! I'm Karla Avalos 🌱</h1>
+        <h3>
+          I’m a Product Designer (UI/UX), currently studying HCI @UC Irvine,
+          focused on creating human centered designs for increased
+          <div class="rainbow">equity and accessibility.</div>
+        </h3>
 
-        <header>
-          <div class="flexboxTitle">
-            <h1>
-              Hello! Hello! I'm Karla Avalos
-              <div id="smol"><em>(she/her)</em></div>
-            </h1>
-            <img src="assets/grow2.gif" class="plant" />
-          </div>
-          <h3>
-            I’m a User Interface & User Experience Designer, currently studying
-            HCI @UC Irvine, focused on creating human centered designs for
-            increased
-            <div class="rainbow">equity and accessibility.</div>
-          </h3>
-        </header>
+        <a href="#firstRow" id="inline">
+          <span class="material-symbols-outlined"> expand_more </span>
+          <p id="nospace">Projects</p>
+        </a>
+      </div>
 
-        <div class="row" id="sub-header">
-          <div class="bounce">
-            <div class="leftalign">
-              <a href="#firstRow" id="inline">
-                <span class="material-symbols-outlined"> expand_more </span>
-                <p id="nospace">Projects</p>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div data-aos="fade-up" id="firstRow">
-          <div class="row" id="nospace">
-            <div class="col-md-4">
-              <a href="rooted.html" class="apps">
-                <div class="project-card" id="greenbg">
-                  <div class="project-text">
-                    <p class="pinkText">Product Design (UI/UX)</p>
-                    <h3>Rooted</h3>
-                  </div>
-                  <img src="assets/rooted/rooted.svg" />
+      <!-- Projects -->
+      <div data-aos="fade-up" id="firstRow">
+        <h3>Featured Work</h3>
+        <div class="row">
+          <!-- Edsight -->
+          <div class="col-md-4 col-sm-6">
+            <a href="edsight.html">
+              <div class="project-card">
+                <div class="project-bg" id="edsight-bg">
+                  <img src="assets/ed.svg" />
                 </div>
-              </a>
-            </div>
-            <div class="col-md-4">
-              <a href="edsight.html" class="apps" id="whitebg">
-                <div class="project-card" id="pinkbg">
-                  <div class="project-text">
-                    <p class="pinkText">UX Strategy</p>
-                    <h3>Edsight's Design System Redesign</h3>
-                  </div>
-                  <div class="card-outer" id=" edsightBg">
-                    <img src="assets/edsight/edsight.svg" />
-                  </div>
+                <div class="project-text">
+                  <p class="project-tag">UX RESEARCH</p>
+                  <h3>Edsight</h3>
                 </div>
-              </a>
-            </div>
-            <div class="col-md-4">
-              <a href="gamein.html" class="apps" id="whitebg">
-                <div class="project-card" id="bluebg">
-                  <div class="project-text">
-                    <p class="pinkText">UX Strategy</p>
-                    <h3>GameIn</h3>
-                  </div>
-                  <div class="card-outer" id=" gameinBg">
-                    <img src="assets/gamein/gamein.svg" />
-                  </div>
-                </div>
-              </a>
-            </div>
+              </div>
+            </a>
           </div>
-        </div>
+          <!-- Rooted -->
+          <div class="col-md-4 col-sm-6">
+            <a href="rooted.html">
+              <div class="project-card">
+                <div class="project-bg" id="rooted-bg">
+                  <img src="assets/rooted/rootedbg.svg" />
+                </div>
+                <div class="project-text">
+                  <p class="project-tag">UI/UX DESIGN</p>
+                  <h3>Rooted</h3>
+                </div>
+              </div>
+            </a>
+          </div>
+          <!-- GameIn -->
+          <div class="col-md-4 col-sm-6">
+            <a href="gamein.html">
+              <div class="project-card">
+                <div class="project-bg" id="gamein-bg">
+                  <img src="assets/gamein/gamein.svg" />
+                </div>
+                <div class="project-text">
+                  <p class="project-tag">UI/UX DESIGN</p>
+                  <h3>GameIn</h3>
+                </div>
+              </div>
+            </a>
+          </div>
 
-        <div data-aos="fade-up">
-          <div class="row">
-            <a href="qtea.html" class="apps">
-              <div class="row" id="nospace">
-                <div class="col-md-12">
-                  <a href="graphics.html" class="apps" id="whitebg">
-                    <div class="project-card" id="front">
-                      <div class="project-text">
-                        <p class="center-p">Graphic Designs & Visual Art</p>
-                        <h3>Digital Art Portfolio</h3>
-                      </div>
-                      <img src="assets/graphics/bears.svg" />
-                    </div>
-                  </a>
+          <!-- Edsight -->
+          <div class="col-md-4 col-sm-6">
+            <a href="lilo.html">
+              <div class="project-card">
+                <div class="project-bg" id="lilo-bg">
+                  <img src="assets/lilo/lilo.svg" />
+                </div>
+                <div class="project-text">
+                  <p class="project-tag">UX RESEARCH</p>
+                  <h3>LiloBot</h3>
+                </div>
+              </div>
+            </a>
+          </div>
+          <!-- Digi Art -->
+          <div class="col-md-4 col-sm-6">
+            <a href="art.html">
+              <div class="project-card">
+                <div class="project-bg" id="digi-bg">
+                  <img src="assets/ed.svg" />
+                </div>
+                <div class="project-text">
+                  <p class="project-tag">VISUAL ART</p>
+                  <h3>Digital Art</h3>
                 </div>
               </div>
             </a>
           </div>
         </div>
       </div>
-
-      <script>
-        AOS.init();
-      </script>
-    </body>
-
-    <!-- Footer -->
-
-    <footer>
+    </div>
+    <div class="footer">
       <div class="container">
-        <div class="center">
+        <p>Thanks for stopping by 🌷</p>
+        <div class="socials">
           <a href="mailto:karlasavalos01@gmail.com">
             <span class="material-icons">email</span>
           </a>
@@ -229,10 +169,11 @@
               data-width="23"
             ></span>
           </a>
-
-          <p>Made with love and a lot of code ♡</p>
         </div>
       </div>
-    </footer>
-  </div>
+    </div>
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>

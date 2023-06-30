@@ -3,7 +3,7 @@
   <head>
     <title>Karla</title>
     <meta name="viewport" content="width=device-width" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
     <!-- Bootstrap -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
@@ -15,9 +15,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Work+Sans:wght@500;800&family=Poppins:wght@200;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
       rel="stylesheet"
     />
+
     <!-- Import Material Icons -->
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
@@ -32,527 +33,251 @@
       rel="stylesheet"
     />
 
-    <link rel="icon" href="assets/sign.svg" />
-
+    <!-- ASOS package to add effect -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
-
     <script src="/script.js"></script>
   </head>
-
-  <div class="flex-wrapper">
-    <body>
-      <div class="containerHeader">
-        <!-- Navigation Bar -->
-        <div class="row" id="navRow">
-          <div class="col-3" id="leftalign">
-            <div class="left">
-              <a href="index.html">
-                <img
-                  src="assets/name-logo.svg"
-                  id="name-logo"
-                  alt="logo reading 'Karla Avalos / Designer / Coder / Creator /' in a circlular format"
-                />
-              </a>
-            </div>
+  <body>
+    <div class="container">
+      <!-- Navigation Bar -->
+      <div class="nav">
+        <a href="index.html" id="no-margin">
+          <div class="logo">
+            <img src="assets/name-logo.svg" />
           </div>
-          <div class="col-9" id="midalign">
-            <nav>
-              <a href="index.html" class="active">Projects</a>
-              <a href="about.html">Info</a>
-              <a
-                href="assets/Karla Avalos Resume 2023.pdf"
-                target="_blank"
-                class="abutton"
-                ><button>Resume/CV</button></a
-              >
-            </nav>
-          </div>
-        </div>
-
-        <!-- Contact Info -->
-        <div class="app-header" id="rooted-bg">
-          <div class="row">
-            <h1><b>GameIn</b></h1>
-            <p>Connecting Brands and Gamers worldwide.</p>
-            <img src="assets/gamein/gamein.svg" />
-          </div>
-          <hr data-aos="fade-up" />
+        </a>
+        <div class="nav-text">
+          <a href="index.html">my work</a>
+          <a href="about.html">about me</a>
+          <a href="assets/Karla Avalos Resume 2023.pdf">resume</a>
         </div>
       </div>
 
-      <div class="container">
-        <div class="app-background">
-          <div data-aos="fade-up">
-            <div class="row">
-              <div class="col-md-4">
-                <h2>Duration: </h2>
-                <p>6 months</p>
-                <p>September 2022 - March 2023</p>
-              </div>
-              <div class="col-md-4">
-                <h2>Role: </h2>
-                <p>UI/UX Designer</p>
-                <p>
-                  <b>Team: </b>Lingling Wang, Thien Tran, Isabel Pham, Kayle Le,
-                  Srikar Ravindra, Me
-                </p>
-              </div>
-              <div class="col-md-4">
-                <h2>Tools: </h2>
-                <p>Figma, Miro, Google Suite, React, Amazon AWS</p>
-              </div>
-
-              <hr data-aos="fade-up" />
-            </div>
-          </div>
-
-          
-
-          
-                      
-<!-- 
-                <div data-aos="fade-up">
-                    <div class="row">
-                        <h2>Timeline</h2>
-                        <img src="assets/rooted/timeline.jpg">
-                    </div>
-
-                    <hr data-aos="fade-up">
-
-                </div>
-
-                <div data-aos="fade-up" class="greenBackground">
-                    
-                    <p class="greenText"><b>1. Understand The Problem</b></p>
-
-                </div> -->
-
-
-
-                <div data-aos="fade-up">
-                    <div class="row">
-                        <h2>Problem Statement</h2>
-                        
-                        <p>GameIn aims to provide an established integrated team find, sponsorship, certification, and transfer market platform in the gaming and eSports industry. The vision for the platform strives to define GameIn as a leading matchmaking system between eSports teams and sponsorship organizations. It serves as a "one-stop-shop" for endemic and non-endemic stakeholders looking for teams, influencers, athletes, coaches, partners, and investment opportunities in order to improve their business and achieve strategic goals.</p>
-
-                        <p>
-                          As a development team under GameIn, <b>our purpose is to enhance and further the platform's existing user experience and user interface</b> through various combined skill sets, ultimately shaping the platform into an even more engaging and interactive system.
-                        </p>
-                        
-                    
-                    </div>
-
-                    <hr data-aos="fade-up">
-
-
-                    
-                </div>
-
-                <div data-aos="fade-up">
-                  <div class="row">
-                      <h2>Full Case Study Coming Soon...</h2>
-                  </div>
-      
-                  <hr data-aos="fade-up">
-      
-              </div>
-
-     
-               
-
-                <!-- <div data-aos="fade-up" class="greenBackground">
-                    
-                        <p class="greenText"><b>2. Research</b></p>
-
-                </div>
-                <div data-aos="fade-up">
-                    <div class="row">
-                        <h2>Competitive Analysis</h2>
-
-                        <p>
-                            By conducting a competitive analysis, we were able to more clearly identify current trends in the gaming industry (in regards to GameIn's main features). 
-                            We found that although many of GameIn's main features of having player certification, a sponsor market, and a connection to the E-sports Community, were found in competitors. 
-                            Other platforms lacked having all three and mainly followed the route of only focusing on one of these features.
-                            Gamein allows users to access to all of these elements in one place, providing a structured organization that allows the E-sports community to matchmake with each other and sponsors in a secure environment. 
-                        </p>
-
-
-                    </div>
-                </div>
-
-                <div data-aos="fade-up">
-                    <div class="row">
-                        <h2>Research Insights</h2>
-                        <p class="rootedHighlight">Research Insight</p>
-                        <h3>Individuals use a variety of mediums to learn and understand how to better care for their plants.</h3>
-                        
-
-                            <p>90% of all interviewees indicated that online resources are their source of knowledge and where they go to find
-                                 new information. Combining a variety of mediums such as <b>YouTube, mobile apps, discussion forums and
-                                  graphics/diagrams</b> , individuals can form a better understanding on how to take best care of their specific 
-                                  plants in their specific circumstance/situation. </p>
-                    </div>
-                </div>
-
-                <div data-aos="fade-up">
-                    <div class="row">
-                        <p class="rootedHighlight">Research Insight</p>
-                        <h3>Novice plant owners fixate their care attention on water and sunlight.</h3>
-
-                            <p>When asked what plant care looks like to them, 4/5 novice plant owner interviewees described plant care
-                                 as water and sunlight. As one interviewee said,
-                                  <b>"it's just a plant so it just needs water and sunlight."</b> This is very different from experienced plant
-                                   owners, who acknowledge many more areas of interest that plant care requires (including soil pH, root
-                                    care, and humidity). This indicates that novice plant owners could greatly benefit from plant
-                                     care education</p>
-
-                        <img src="assets/rooted/miro_sun.jpg">
-                    </div>
-                </div>
-
-                <div data-aos="fade-up">
-                    <div class="row">
-                        <p class="rootedHighlight">Research Insight</p>
-                        <h3>Plant owners don't want to keep a strict schedule for plant care, but still want to be consistent.</h3>
-
-                            <p>We found that 8 out of the 10 plant owners we interviewed didn't have or want to implement a strict 
-                                schedule for plant care. Yet, consistency was still listed as a goal by the majority of interviewees.
-                                 Plant owners would rather determine care based on needs rather than following a strict schedule.
-                                  This can be seen in notes on the affinity map below, where the "flexible schedule" area contains user 
-                                  tendencies we recorded. According to botanists, <b>"plants thrive on consistency,"</b> making consistent
-                                   care an important factor whether users actively seek to achieve it or not.</p>
-
-                        
-                        <div class="col-md-4">
-                            <img src="assets/rooted/Team Fried Rice Fanatics_ Brainstorming.jpg">
-                        </div>
-                      <div class="col-md-8">
-                            <img src="assets/rooted/miro_sched.jpg">
-                        </div>
-                    </div>
-                </div>
-                    
-                <hr data-aos="fade-up">
-                    
-                
-
-                <div data-aos="fade-up" class="greenBackground">
-                    
-                        <p class="greenText"><b>3. Ideation</b></p>
-                    
-
-                </div>
-
-                <div data-aos="fade-up">
-                    <div class="row">
-                        <h2>User Personas</h2>
-
-                        <p>In order to understand the needs of our diifferent users and their priorities when using GameIn, we created personas.
-
-
-                       </p>
-                        <div class="col-md-4">
-                            <img src="assets/gamein/organization persona.png" class="border">
-                        </div>
-                    
-                        <div class="col-md-4">
-                            <img src="assets/gamein/team persona.png" class="border">
-                        </div>
-                        <div class="col-md-4">
-                          <img src="assets/gamein/gamer persona.png" class="border">
-                      </div>
-
-                       
-                    </div>
-
-                    <div class="row">
-
-                        <h2>Userflows</h2>
-                        <p>To more clearly show how users will be <b>navigating</b> our app, we created a user flow chart.
-                             This chart depicts how users would likely be using the different features of our site.</p>
-                        <img src="assets/gamein/dashboard user flow.png" class="rootedImg">
-                    </div>
-
-                    <hr data-aos="fade-up">
-                    
-                </div>
-
-
-                <div data-aos="fade-up" class="greenBackground">
-                    
-                        <p class="greenText"><b>4. Design</b></p>
-                    
-
-                </div>
-
-                <div data-aos="fade-up">
-                   
-                    <div class="row">
-                        <h2>Low-Fidelity Wireframes</h2>
-
-                        <div class="col-md-6" id="midalign">
-                            <p>After evaluating and critiquing our sketches within our group, we found that there were 
-                                changes to be made in our sketches to include into our mid-fi wireframes, as well as other
-                                 features we wanted to include. <b>Our full feature list includes: onboarding, plant encyclopedia,
-                                  reminders, plant scanner, explore, and user profile.</b>
-                            </p>
-                        </div>
-                        <div class="col-md-6">
-                            <img src="assets/gamein/">
-                        </div>
-                    </div>
-
-                    
-                </div>
-
-                <div data-aos="fade-up">
-                    <div class="row">
-                        <h2>High-Fidelity Design</h2>
-
-                        <div class="row"  id="feature">
-                            <div class="col-md-5">
-                                <img src="assets/gamein/gamein dashboard.svg" class="paddingRight">
-                            </div>
-                            <div class="col-md-7" id="midalign">
-                                <h3>Care Schedules</h3>
-                                <p>Many users wanted help with keeping a <b>consistent schedule</b> for their plant care.
-                                    To address this, we implemented a <a>reminder & notification feature</a> that will notify users of 
-                                    any immediate tasks, upcoming tasks, and prior tasks for each of their plants.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="row"  id="feature">
-
-                            <div class="col-md-7" id="midalign">
-                                <h3>Education</h3>
-                                <p>Users mentioned that they wanted to be more informed about their plants in order to feel more readily prepared to care for them.
-                                    To accomplish this goal, we implemented a plant encyclopedia which provides alist of alphabetically sorted 
-                                    plant names, as well as a search bar for easier navigation.
-                                    Once the desired plant is selected, an <b>information card of the plant is presented,
-                                    giving information regarding it's care, issues, and background.</b> 
-                                </p>
-                            </div>
-                            <div class="col-md-5">
-                                <img src="assets/gamein/gamein inbox.svg" class="paddingLeft">
-                            </div>
-                        </div>
-
-                        <div class="row" id="feature">
-                            <div class="col-md-5">
-                                <img src="assets/gamein/market-sponsoring.svg" class="paddingRight">
-                            </div>
-                            <div class="col-md-7" id="midalign">
-                                <h3>Identification</h3>
-                                <p>In order to make the plant identification process easier and faster, we decided to make a plant scanning feature that will allow users
-                                    to input their plants with a <b>quick camera scan.</b> Knowing what plant you have is crucial to knowing how to properly care for it's specific needs.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-        
-
-                    <hr data-aos="fade-up">
-                    
-                </div>
-
-                <div data-aos="fade-up" class="greenBackground">
-                    
-                        <p class="greenText"><b>5. Evaluate</b></p>
-                    
-
-                </div>
-
-                <div data-aos="fade-up">
-                    <div class="row">
-
-                        <h2>User Testing</h2>
-
-                        <p>To evaluate our high-fidelity prototype, we created a <b>usability testing process.</b> 
-                            This process was designed for an interviewer to walk a user through a series of tasks,
-                             <b>testing the usability of the screens and flows</b> we included. We ended up conducting usability
-                              tests on 5 users, all new or interested plant owners (our target audience). Users really liked the app's interface, with an average overall rating of 8.4/10
-
-                        </p>
-                    </div>
-                    
-                </div>
-                
-                <div data-aos="fade-up">
-                    <div class="row">
-                        <div class="row" id="nospace">
-                            <h2>User Feedback</h2>
-                            <div class="col-md-6">
-                                <div class="rootedCard">
-                                    <h2>Positives</h2>
-
-                            <p>
-                                1. Reminder system is highly appreciated - <b>3/5 users mentioned
-                                that the reminder system was helpful.</b> This verified our initial
-                                hypothesis that the reminders would be useful to new and interested plant owners.
-                            </p>
-                            <p>
-                                2. <b>Scanning feature is convenient</b> and of high value to these new plant owners
-                                - 3/5 users expressed praise for the convenience of the scanning feature,
-                                indicating that it relieved a key pain point for our target users.
-                            </p>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="rootedCard">
-                                    <h3>Negatives</h3>
-
-                                    <p>
-                                        1. <b>Hamburger menu caused confusion</b> since it wasn't utilized - 
-                                        4/5 users commented about the hamburger menu, due to its lack of
-                                        functionality during usability testing.
-                                    </p>
-
-                                    <p>
-                                        2. <b>Button contrast can be improved</b> - locating buttons was difficult at times
-                                        due to poor visibility. Several participants mentioned that the color of
-                                        buttons or other icons made it difficult to locate/recognize as clickable items.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                 -->
-
-                <div data-aos="fade-up" class="greenBackground">
-                    
-                        <p class="greenText"><b>Reflection</b></p>
-                    
-
-                </div>
-
-                <div data-aos="fade-up">
-                    <div class="row">
-                        <h2>Key Takeaways</h2>
-
-
-
-                        <h3>1. Communication is key!</h3>
-                        <p>
-                          In order for everyone to be on the same page and keep our progress steady,
-                          our team was constantly updating each other on our own individual progress
-                           as well as what each person would do next. In addition, we set up weekly 
-                           meetings with our sponsor to update them with what we had done so far and
-                            give an opportunity for feedback on our designs. This feedback really 
-                            communicated to me what the intentions of our sponsor was and how to properly
-                             achieve their vision for GameIn.
-                        </p>
-
-
-                        <h3>2. Be Adaptable</h3>
-                        <p>During this internship, I worked on a project in the earlier stages of developement so many
-                          ideas were not concrete yet. We went through various low-mid fidelity designs showcasing possible
-                          features and oftentimes had a lot of changes to make during feedback sessions. This really 
-                          proved the importance of feedback as well as wireframes, since the changes would have been much more 
-                          difficult in higher fidelity mockups. Overall, this feeback process gave a lot of insight on 
-                          what the future of GameIn would look like so it was important to be attentive to the changes asked by the Sponsor.
-                        </p>
-
-                        
-                    </div>
-                    
-                </div>
-                
-                <hr data-aos="fade-up">
-                                        
-            </div>
-            <div data-aos="fade-up">
-                <div class="row">
-                    <p class="greenText">Other Projects</p>
-                        <h2>Check out my other work! 👇</h2>
-
-                    
-                        <div data-aos="fade-up">
-                            <div class="row" id="nospace">
-                              
-                              <div class="col-md-4">
-                                <a href="edsight.html" class="apps" id="whitebg">
-                                  <div class="project-card" id="front">
-                                    <div class="project-text">
-                                      <p class="center-p">UX Strategy</p>
-                                      <h3>Edsight's Design System Redesign</h3>
-                                    </div>
-                                    <img src="assets/edsight/edsight.svg" />
-                                  </div>
-                                </a>
-                              </div>
-                              <div class="col-md-4">
-                                <a href="gamein.html" class="apps" id="whitebg">
-                                  <div class="project-card" id="front">
-                                    <div class="project-text">
-                                      <p class="center-p">UX Strategy</p>
-                                      <h3>GameIn</h3>
-                                    </div>
-                                    <img src="assets/gamein/gamein.svg" />
-                                  </div>
-                                </a>
-                              </div>
-                              <div class="col-md-4">
-                                <a href="graphics.html" class="apps" id="whitebg">
-                                  <div class="project-card" id="front">
-                                    <div class="project-text">
-                                      <p class="center-p">Graphic Designs & Visual Art</p>
-                                      <h3>Graphics</h3>
-                                    </div>
-                                    <img src="assets/graphics/smallBears.svg" />
-                                  </div>
-                                </a>
-                              </div>
-                            </div>
-                          </div>
-                  
-                    
-                </div>
-            
-            </div>
-
-           
+      <!-- App Section -->
+      <div class="project-bg-big" id="gamein-bg">
+        <img src="assets/gamein/GAMEINBG.svg" />
+      </div>
+      <div class="row">
+        <h2>GameIn</h2>
+        <h3 class="grey">Connecting brands and gamers worldwide.</h3>
+      </div>
+      <hr />
+
+      <div class="row">
+        <div class="col-md-4">
+          <h3>Duration:</h3>
+          <p>September 2022 - March 2023 (3 months)</p>
         </div>
-        <div class="scroll-container">
-            <a href="#top">
-                <span class="material-symbols-outlined">
-                arrow_upward
-                </span>
-            </a>
+        <div class="col-md-4">
+          <h3>Role:</h3>
+          <p>UX Researcher</p>
         </div>
+        <div class="col-md-4">
+          <h3>Tools:</h3>
+          <p>Figma</p>
+        </div>
+      </div>
+      <hr />
+      <!-- Overview -->
+      <div class="row">
+        <h3>Context</h3>
+        <p>
+          GameIn aims to provide an established integrated team find,
+          sponsorship, certification, and transfer market platform in the gaming
+          and eSports industry. The vision for the platform strives to define
+          GameIn as a leading matchmaking system between eSports teams and
+          sponsorship organizations. It serves as a "one-stop-shop" for endemic
+          and non-endemic stakeholders looking for teams, influencers, athletes,
+          coaches, partners, and investment opportunities in order to improve
+          their business and achieve strategic goals.
+        </p>
+        <p>
+          As a development team under GameIn,
+          <b
+            >our purpose is to enhance and further the platform's existing user
+            experience and user interface</b
+          >
+          through various combined skill sets, ultimately shaping the platform
+          into an even more engaging and interactive system.
+        </p>
+      </div>
+
+      <div class="row">
+        <h3>Problem Statement</h3>
+        <p>
+          Due to limited access to counselors, numerous students lack the
+          necessary support to express their nervousness about transitioning to
+          college. However, relying on chatbots to address these needs can
+          create conflicts as chatbots primarily focus on providing resources or
+          quick responses to inquiries, often overlooking the emotional needs of
+          students.
+        </p>
+        <p>
+          <b
+            >How might we design an authentic chatbot that can provide
+            highschool students a support system to express their concerns
+            regarding the challenging transition to college?
+          </b>
+        </p>
+      </div>
+      <hr />
+
+      <!-- Design Journey -->
+      <div class="row">
+        <h3>The Design Process</h3>
+        <h4>Requirements Document</h4>
+        <p>
+          When creating GameIn, we wanted to make sure we clearly understood
+          what the sponsors were asking us to do, so to clearly visualize this,
+          we created a written document containing all the requirements of the
+          project details.
+        </p>
+        <p>
+          In this document, we planned a layout of what pages we would need and
+          the possible content that would be on each page. After double checking
+          with our sponsor’s that our requirements document aligned with their
+          vision, we proceeded to create a user flow diagram to better visualize
+          the information in the document.
+        </p>
+
+        <h4>User Flow</h4>
+        <p>
+          The user flow diagrams helped to envision the way users would navigate
+          through GameIn, and plan for potential differences depending on the
+          user’s main goal (organization, team, or player).
+        </p>
+        <p>
+          We mainly focused on creating 4 pages: Create Teams Page, User Profile
+          Page, a Dashboard Page, and a Chat Page.
+        </p>
+        <img src="assets/gamein/userflo.svg" />
+        <div class="caption">
+          <p>User flow diagram</p>
+        </div>
+
+        <h4>Wireframes</h4>
+        <p>
+          After finalizing the flow and content of each page, we began working
+          on converting user flows into wireframes. In one of our earlier
+          iterations of the create team page, which prompts the user to link
+          their social media account, we ran into problems concerning the adding
+          of accounts and design of the progress bar; there was no way to add
+          multiple accounts of the same social media, and the minimalism of the
+          progress bar was not very informative. We fixed these issues by adding
+          a popout which allowed users to add as many accounts as they liked,
+          and upgraded the progress bar to more easily convey to the user where
+          exactly in the create team process they are by adding numbered steps
+          and subject labeling. Our low-fidelity mockups allowed us to visualize
+          this and make changes in the early stages so we can avoid further
+          problems in later design stages.
+        </p>
+        <img src="assets/gamein/lofi.svg" />
+        <div class="caption">
+          <p>Lo-Fi Wireframes</p>
+        </div>
+        <p>After more rounds of feedback we created mid fidelity wireframes.</p>
+        <img src="assets/gamein/midfi.svg" />
+        <div class="caption">
+          <p>Mid-Fi Wireframes</p>
+        </div>
+
+        <h4>Prototyping</h4>
+        <p>
+          After our mid-fidelity wireframes were approved, they were sent over
+          to the graphic designer on the team who mocked up high fidelity
+          renditions of the design. Once he completed these, they were sent back
+          to the team so they could be coded into a functioning prototype.
+        </p>
+        <p>
+          Using ReactJS as our coding language and Amazon AWS to host our
+          project, we were able to collaboratively work on the coding process.
+          We closely followed the mockups made by the Graphic Designer and made
+          sure to also keep in mind usability guidelines.
+        </p>
+        <img src="assets/gamein/hifi.svg" />
+        <div class="caption">
+          <p>Hi-Fi Wireframes / Prototype Design</p>
+        </div>
+      </div>
+      <hr />
+
+      <div class="row">
+        <h3>Reflections</h3>
+
+        <h4>Challenges</h4>
+        <p>
+          When I first joined this project, I was less familiar with front-end
+          development, and found it a bit challenging to switch from the design
+          process into the middle coding process. However, as I continued to
+          research React and started communicating with the coding lead for
+          clarification, I was able to work quicker and got more used to the
+          coding process as well. Overall, I think this was an amazing
+          experience that got me out of my comfort zone but in a good way!
+        </p>
+        <p>
+          Another challenge was that oftentimes, the team would work remotely at
+          separate times. This would sometimes make it difficult to note what
+          was being worked on, what had been completed by someone else, and what
+          still needed to be completed. In order to fix this, however, we were
+          able to update a sprint sheet with our assigned tasks and also
+          delegate tasks in our in person meetings.
+        </p>
+
+        <h4>Reflection</h4>
+        <p>
+          Working on GameIn was a very big opportunity for me to work on my
+          design, coding, and communication skills all at once. I had the
+          opportunity to work closely with the sponsor; this allowed me to voice
+          my thoughts on existing designs, design new mockups, and allowed me to
+          remain open for feedback in case any changes had to be made.
+        </p>
+        <p>
+          One main thing that I learned from this experience was to be open to
+          feedback at any stage of design. When designing, we had a lot of
+          freedom of how we wanted to represent certain pages, so the feedback
+          sessions from the sponsor were very important to letting us know what
+          elements we should keep or change in order to satisfy what they
+          actually wanted or envisioned.
+        </p>
+        <p>
+          Another thing I learned was to always communicate with the team.
+          Oftentimes, our team would work at different times, so in order for
+          everyone to be on the same page after working hours, we began to keep
+          a log of assigned tasks in a sprintsheet and delegated these tasks in
+          our group meeting times. This made sure to keep everything organized
+          and evenly distributed tasks throughout the team.
+        </p>
+      </div>
     </div>
-    
 
-</body>
-
-        <script>
-            AOS.init();
-        </script>
-
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="center">
-            <a href="mailto:karlasavalos01@gmail.com">
-                <span class="material-icons">email</span>
-            </a>
-            <a href="https://www.instagram.com/kar.laav/">
-                <span class="iconify-inline" data-icon="ant-design:instagram-filled" data-width="23"></span>
-            </a>
-            <a href="https://www.linkedin.com/in/karla-avalos-59849a191/">
-                <span class="iconify-inline" data-icon="mdi:linkedin"  data-width="23"></span>
-            </a>
-
-            <p>Made with love and a lot of code ♡</p>
-
-            </div>
+    <div class="footer">
+      <div class="container">
+        <p>Thanks for stopping by 🌷</p>
+        <div class="socials">
+          <a href="mailto:karlasavalos01@gmail.com">
+            <span class="material-icons">email</span>
+          </a>
+          <a href="https://www.instagram.com/kar.laav/">
+            <span
+              class="iconify-inline"
+              data-icon="ant-design:instagram-filled"
+              data-width="23"
+            ></span>
+          </a>
+          <a href="https://www.linkedin.com/in/karla-avalos-59849a191/">
+            <span
+              class="iconify-inline"
+              data-icon="mdi:linkedin"
+              data-width="23"
+            ></span>
+          </a>
         </div>
-    </footer>
-</div>
+      </div>
+    </div>
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>
