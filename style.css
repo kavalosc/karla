@@ -25,7 +25,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 1em !important;
+  margin-bottom: 3em !important;
 }
 
 .nav a {
@@ -48,7 +48,7 @@ a:hover{
 
 /* Header */
 .header {
-  padding-top: 6em;
+  padding-top: 4em;
   padding-bottom: 5em;
 }
 
