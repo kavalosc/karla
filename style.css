@@ -79,6 +79,15 @@ h3 {
   padding-right: .2em;
 }
 
+.highlighter {
+  display: inline;
+  color: #000024;
+  background-color: #FCF7BC;
+  padding-left: .2em;
+  padding-right: .2em;
+}
+
+
 /* Projects */
 
 .project-card {
