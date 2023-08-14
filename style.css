@@ -80,12 +80,13 @@ h3 {
 }
 
 .highlighter {
-  display: inline;
+  display: inline !important;
   color: #000024;
   background-color: #FCF7BC;
   padding-left: .2em;
   padding-right: .2em;
 }
+
 
 
 /* Projects */
@@ -197,4 +198,8 @@ h4 {
 
 #smol {
   text-align: center;
+}
+
+.featureWidth {
+  width: 20em !important;
 }
