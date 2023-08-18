@@ -203,3 +203,7 @@ h4 {
 .featureWidth {
   width: 20em !important;
 }
+
+.indent {
+  margin-left: 2em;
+}
