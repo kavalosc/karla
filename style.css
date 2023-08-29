@@ -207,3 +207,21 @@ h4 {
 .indent {
   margin-left: 2em;
 }
+
+button {
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  border: none;
+  color: #4F705E;
+  background-color: #DAEBBA;
+  padding: 1em;
+  margin-top: 1em !important;
+  border-radius: .5em !important;
+}
+
+.callout {
+  display: flex;
+  padding: .5em;
+  background-color: #e7e9ea;
+}
