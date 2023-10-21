@@ -1,9 +1,9 @@
 body {
   background-color: #FEFEFE;
   min-height: 100vh;
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'DM Sans', sans-serif !important;
   color: #000024;
-  line-height: 1.8 !important;
+  position: relative;
 }
 
 .container {
@@ -11,6 +11,7 @@ body {
   padding-right: 15vw !important;
   padding-top: 2em !important;
   padding-bottom: 2em !important;
+  line-height: 1.6 !important;
 }
 
 .container img {
@@ -82,7 +83,7 @@ h3 {
 .highlighter {
   display: inline !important;
   color: #000024;
-  background-color: #FCF7BC;
+  font-weight: bold;
   padding-left: .2em;
   padding-right: .2em;
 }
@@ -231,3 +232,45 @@ button {
   display: flex;
   justify-content: center;
 }
+
+/* Make back to top button */
+
+.scroll-container {
+  position: absolute !important;
+  top: 0 !important;
+  right:5vw !important;
+  height: 100% !important;
+  
+}
+
+.scroll-container:before {
+  content: '';
+  display: block;
+  height: 120vh;
+  pointer-events: none;
+}
+
+.scroll-container a {
+  position: sticky !important;
+  top: 84vh;
+  cursor: pointer;
+  padding: 1em;
+  border-radius: 50% !important;
+  background-color: #242424;
+  color: #FEFEFE !important;
+  display: flex;
+  text-decoration: none;
+}
+
+.socials {
+  display: flex;
+  justify-content: left;
+  align-content: center;
+  align-items: center;
+}
+
+.socials a {
+  font-size: 23px;
+  margin-right: .8em;
+}
+
