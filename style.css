@@ -296,6 +296,12 @@ button {
 
 }
 
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 30px;
+  }
+}
+
 
 /* Hide the link that should open and close the nav-text on small screens */
 .nav-text .icon {
