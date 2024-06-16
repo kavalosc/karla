@@ -4,14 +4,18 @@ body {
   font-family: 'DM Sans', sans-serif !important;
   color: #000024;
   position: relative;
+  font-size: 1.1rem !important;
 }
 
 .container {
-  padding-left: 10em !important;
-  padding-right: 10em !important;
   padding-top: 2em !important;
   padding-bottom: 2em !important;
   line-height: 1.8 !important;
+  max-width: 68rem !important;
+  padding-left: 5em !important;
+  padding-right: 5em !important;
+
+
 }
 
 .container img {
@@ -19,12 +23,12 @@ body {
 }
 /* Navbar info */
 .logo {
-  width: 80px;
+  width: 35px;
 }
 
 .nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   margin-bottom: 3em !important;
 }
@@ -32,6 +36,10 @@ body {
 .nav a {
   margin-left: 1.5em;
 
+}
+
+.hamburger {
+  display: none;
 }
 
 #no-margin {
@@ -55,6 +63,7 @@ a:hover{
 
 h1 {
   font-size: 48pt !important;
+  font-weight: normal !important;
 }
 
 h2 {
@@ -62,8 +71,9 @@ h2 {
 }
 
 h3 {
-  font-size: 24pt !important;
+  font-size: 20pt !important;
   margin-bottom: .5em !important;
+  font-weight: normal !important;
 }
 
 .header h3 {
@@ -71,6 +81,7 @@ h3 {
   margin-top: 1em;
   margin-bottom: 1em;
 }
+
 
 .rainbow {
   display: inline;
@@ -274,3 +285,55 @@ button {
   margin-right: .8em;
 }
 
+
+
+/* For mobile phones: */
+@media only screen and (max-width: 600px) {
+
+  [class*="col-"] {
+    width: 100%;
+  }
+
+}
+
+
+/* Hide the link that should open and close the nav-text on small screens */
+.nav-text .icon {
+  display: none;
+}
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the nav-text (.icon) */
+@media screen and (max-width: 600px) {
+  .nav-text a:not(:first-child) {display: none;}
+  .nav-text a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+/* The "responsive" class is added to the nav-text with JavaScript when the user clicks on the icon. This class makes the nav-text look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .nav-text.responsive {position: relative;}
+  .nav-text.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .nav-text.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+
+b {
+  color: #000024;
+}
+.gradient {
+  background: -webkit-linear-gradient(#f05fdf, #3D5BE1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  display: inline;
+}
